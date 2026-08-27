@@ -1,0 +1,66 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<Description>让 .NET 开发更简单，更通用，更流行。</Description>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<OpenApiGenerateDocuments>false</OpenApiGenerateDocuments>
+		<GenerateResxSourceIncludeDefaultValues>true</GenerateResxSourceIncludeDefaultValues>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Remove="FriendlyException\Assets\error.html" />
+		<None Remove="Schedule\Dashboard\frontend\**\*" />
+		<None Remove="SpecificationDocument\Assets\**\*" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Include="FriendlyException\Assets\error.html" />
+		<EmbeddedResource Include="Schedule\Dashboard\frontend\**\*" />
+		<EmbeddedResource Include="SpecificationDocument\Assets\**\*" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<ItemGroup Condition=" '$(TargetFramework)' == 'net8.0' ">
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="8.0.30" />
+		<PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.5.0" />
+	</ItemGroup>
+
+	<ItemGroup Condition=" '$(TargetFramework)' == 'net9.0' ">
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="9.0.0" />
+		<PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.8.0" />
+	</ItemGroup>
+
+	<ItemGroup Condition=" '$(TargetFramework)' == 'net10.0' ">
+		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="10.0.0" />
+		<PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.14.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Razor.Language" Version="6.0.36" />
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="10.2.3" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<None Include="readme.txt" pack="true" PackagePath="." />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Compile Update="V5_Experience\Validation\Resources\ValidationMessages.Designer.cs">
+			<DesignTime>True</DesignTime>
+			<AutoGen>True</AutoGen>
+			<DependentUpon>ValidationMessages.resx</DependentUpon>
+		</Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+		<EmbeddedResource Update="V5_Experience\Validation\Resources\ValidationMessages.resx">
+			<Generator>ResXFileCodeGenerator</Generator>
+			<LastGenOutput>ValidationMessages.Designer.cs</LastGenOutput>
+			<CustomToolNamespace>Furion.Validation.Resources</CustomToolNamespace>
+		</EmbeddedResource>
+	</ItemGroup>
+
+</Project>

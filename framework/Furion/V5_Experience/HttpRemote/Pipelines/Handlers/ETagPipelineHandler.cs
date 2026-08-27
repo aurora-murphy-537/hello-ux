@@ -1,0 +1,283 @@
+﻿// ------------------------------------------------------------------------
+// 版权信息
+// 版权归百小僧及百签科技（广东）有限公司所有。
+// 所有权利保留。
+// 官方网站：https://baiqian.com
+//
+// 许可证信息
+// Furion 项目主要遵循 MIT 许可证和 Apache 许可证（版本 2.0）进行分发和使用。
+// 许可证的完整文本可以在源代码树根目录中的 LICENSE-APACHE 和 LICENSE-MIT 文件中找到。
+// 官方网站：https://furion.net
+//
+// 使用条款
+// 使用本代码应遵守相关法律法规和许可证的要求。
+//
+// 免责声明
+// 对于因使用本代码而产生的任何直接、间接、偶然、特殊或后果性损害，我们不承担任何责任。
+//
+// 其他重要信息
+// Furion 项目的版权、商标、专利和其他相关权利均受相应法律法规的保护。
+// 有关 Furion 项目的其他详细信息，请参阅位于源代码树根目录中的 COPYRIGHT 和 DISCLAIMER 文件。
+//
+// 更多信息
+// 请访问 https://gitee.com/dotnetchina/Furion 获取更多关于 Furion 项目的许可证和版权信息。
+// ------------------------------------------------------------------------
+
+using System.Net;
+using System.Net.Http.Headers;
+
+namespace Furion.HttpRemote;
+
+/// <summary>
+///     ETag 缓存管道处理器
+/// </summary>
+/// <remarks>参考文献：https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Reference/Headers/ETag。</remarks>
+/// <param name="eTagCache">
+///     <see cref="IHttpETagCache" />
+/// </param>
+/// <param name="logger">
+///     <see cref="IHttpRemoteLogger" />
+/// </param>
+internal sealed class ETagPipelineHandler(IHttpETagCache eTagCache, IHttpRemoteLogger logger)
+    : IHttpRequestPipelineHandler
+{
+    /// <inheritdoc />
+    public async Task<HttpResponseMessage?> HandleAsync(HttpRequestPipelineContext context,
+        Func<Task<HttpResponseMessage?>> next)
+    {
+        // 获取当前 HttpRequestBuilder 实例
+        var httpRequestBuilder = context.Builder;
+
+        // 检查是否禁用缓存或未启用 ETag 缓存功能
+        if (httpRequestBuilder.DisableCacheEnabled || !httpRequestBuilder.ETagEnabled)
+        {
+            // 调用下一个处理器的委托
+            return await next();
+        }
+
+        // 获取当前 HttpRequestMessage 实例
+        var httpRequestMessage = context.RequestMessage;
+
+        // 检查是否是 GET 和 HEAD 请求
+        if (httpRequestMessage is null ||
+            (httpRequestMessage.Method != HttpMethod.Get && httpRequestMessage.Method != HttpMethod.Head))
+        {
+            // 调用下一个处理器的委托
+            return await next();
+        }
+
+        // 生成缓存键
+        var cacheKey = GenerateCacheKey(httpRequestMessage);
+
+        // 如果缓存中存在 ETag，则添加到请求标头中
+        if (eTagCache.TryGet(cacheKey, out var eTagCacheItem) && eTagCacheItem?.ETag is not null)
+        {
+            httpRequestMessage.Headers.IfNoneMatch.Clear();
+            httpRequestMessage.Headers.IfNoneMatch.Add(new EntityTagHeaderValue($"\"{eTagCacheItem.ETag}\""));
+        }
+
+        // 调用下一个处理器的委托
+        var httpResponseMessage = await next();
+
+        // 空检查
+        if (httpResponseMessage is null)
+        {
+            return null;
+        }
+
+        // 检查是否是 304 Not Modified 状态码
+        if (httpResponseMessage.StatusCode == HttpStatusCode.NotModified && eTagCacheItem is not null)
+        {
+            // 释放前一个 HttpResponseMessage 实例
+            httpResponseMessage.Dispose();
+
+            // 从缓存项重建完整响应消息
+            var cachedResponseMessage = BuildResponseFromCacheItem(eTagCacheItem, httpRequestMessage);
+
+            // 更新上下文
+            context.ResponseMessage = cachedResponseMessage;
+
+            return cachedResponseMessage;
+        }
+
+        // 检查是否是成功请求状态码且包含 ETag 响应标头
+        // ReSharper disable once InvertIf
+        if (httpResponseMessage is { IsSuccessStatusCode: true, Headers.ETag: { } entityTagHeaderValue })
+        {
+            // 如果 ETag 没有变化则跳过缓存更新
+            if (eTagCacheItem?.ETag == entityTagHeaderValue.Tag.Trim('"'))
+            {
+                // 打印警告日志：服务器可能没有正确实现 HTTP 条件请求规范
+                logger.LogWarning(
+                    "Server returned {StatusCode} with unchanged ETag for cache key '{CacheKey}'. It may not support conditional requests correctly.",
+                    (int)httpResponseMessage.StatusCode, cacheKey);
+
+                return httpResponseMessage;
+            }
+
+            // 缓存 HttpResponseMessage 信息
+            await CacheResponseAsync(cacheKey, httpResponseMessage, entityTagHeaderValue);
+        }
+
+        return httpResponseMessage;
+    }
+
+    /// <summary>
+    ///     生成缓存键
+    /// </summary>
+    /// <param name="httpRequestMessage">
+    ///     <see cref="HttpRequestMessage" />
+    /// </param>
+    /// <returns>
+    ///     <see cref="string" />
+    /// </returns>
+    /// <exception cref="ArgumentNullException"></exception>
+    internal static string GenerateCacheKey(HttpRequestMessage httpRequestMessage)
+    {
+        // 空检查
+        ArgumentNullException.ThrowIfNull(httpRequestMessage);
+
+        // 获取请求地址
+        var requestUri = httpRequestMessage.RequestUri!;
+
+        return $"{httpRequestMessage.Method}:{requestUri.AbsoluteUri}";
+    }
+
+    /// <summary>
+    ///     缓存 <see cref="HttpResponseMessage" /> 信息
+    /// </summary>
+    /// <param name="cacheKey">缓存键</param>
+    /// <param name="httpResponseMessage">
+    ///     <see cref="HttpResponseMessage" />
+    /// </param>
+    /// <param name="entityTagHeaderValue">
+    ///     <see cref="EntityTagHeaderValue" />
+    /// </param>
+    /// <exception cref="ArgumentException"></exception>
+    /// <exception cref="ArgumentNullException"></exception>
+    internal async Task CacheResponseAsync(string cacheKey, HttpResponseMessage httpResponseMessage,
+        EntityTagHeaderValue entityTagHeaderValue)
+    {
+        // 空检查
+        ArgumentException.ThrowIfNullOrWhiteSpace(cacheKey);
+        ArgumentNullException.ThrowIfNull(httpResponseMessage);
+        ArgumentNullException.ThrowIfNull(entityTagHeaderValue);
+
+        // 检查是否包含 Cache-Control: no-store/private 响应标头
+        if (httpResponseMessage.Headers.CacheControl is { } cacheControl &&
+            (cacheControl.NoStore || cacheControl.Private))
+        {
+            // 打印警告日志：跳过缓存
+            logger.LogWarning(
+                "Skip caching response for cache key '{CacheKey}' because Cache-Control disallows caching (NoStore: {NoStore}, Private: {Private}).",
+                cacheKey, cacheControl.NoStore, cacheControl.Private);
+
+            return;
+        }
+
+        // 初始化响应内容字节数组
+        byte[]? contentBytes = null;
+
+        // 空检查
+        // ReSharper disable once ConditionIsAlwaysTrueOrFalseAccordingToNullableAPIContract
+        if (httpResponseMessage.Content is not null)
+        {
+            // 读取响应内容字节数组
+            contentBytes = await httpResponseMessage.Content.ReadAsByteArrayAsync();
+
+            // 替换响应内容为可重复读取的 ByteArrayContent，避免原响应流被读取后无法再次使用
+            var originalContentHeaders = httpResponseMessage.Content.Headers;
+            var byteArrayContent = new ByteArrayContent(contentBytes);
+
+            // 还原原始响应内容标头
+            foreach (var header in originalContentHeaders)
+            {
+                byteArrayContent.Headers.TryAddWithoutValidation(header.Key, header.Value);
+            }
+
+            // 释放原始内容并替换
+            httpResponseMessage.Content.Dispose();
+            httpResponseMessage.Content = byteArrayContent;
+        }
+
+        // 初始化 HttpETagCacheItem 实例
+        var eTagCacheItem = new HttpETagCacheItem
+        {
+            // 移除前后双引号
+            ETag = entityTagHeaderValue.Tag.Trim('"'),
+            ContentBytes = contentBytes,
+            ContentHeaders = httpResponseMessage.Content?.Headers.ToDictionary(h => h.Key, h => h.Value),
+            StatusCode = httpResponseMessage.StatusCode,
+            ResponseHeaders = httpResponseMessage.Headers.ToDictionary(h => h.Key, h => h.Value),
+            ReasonPhrase = httpResponseMessage.ReasonPhrase
+        };
+
+        // 更新缓存
+        eTagCache.Set(cacheKey, eTagCacheItem);
+    }
+
+    /// <summary>
+    ///     从缓存项重建 <see cref="HttpResponseMessage" /> 对象
+    /// </summary>
+    /// <param name="eTagCacheItem">
+    ///     <see cref="HttpETagCacheItem" />
+    /// </param>
+    /// <param name="httpRequestMessage">
+    ///     <see cref="HttpRequestMessage" />
+    /// </param>
+    /// <returns>
+    ///     <see cref="HttpResponseMessage" />
+    /// </returns>
+    /// <exception cref="ArgumentNullException"></exception>
+    internal static HttpResponseMessage BuildResponseFromCacheItem(HttpETagCacheItem eTagCacheItem,
+        HttpRequestMessage httpRequestMessage)
+    {
+        // 空检查
+        ArgumentNullException.ThrowIfNull(eTagCacheItem);
+        ArgumentNullException.ThrowIfNull(httpRequestMessage);
+
+        // 初始化 HttpResponseMessage 实例
+        var httpResponseMessage = new HttpResponseMessage(eTagCacheItem.StatusCode);
+
+        // 标记此响应来自 ETag 缓存，供请求分析工具使用
+        httpRequestMessage.Options.Set(new HttpRequestOptionsKey<bool>(Constants.ETAG_CACHED_KEY), true);
+
+        // 同步当前 HttpRequestMessage 实例
+        httpResponseMessage.RequestMessage = httpRequestMessage;
+
+        // 检查是否包含响应内容
+        if (eTagCacheItem.ContentBytes is { Length: > 0 })
+        {
+            // 初始化 ByteArrayContent 实例
+            var byteArrayContent = new ByteArrayContent(eTagCacheItem.ContentBytes);
+
+            // 空检查
+            if (eTagCacheItem.ContentHeaders is not null)
+            {
+                // 还原响应内容标头
+                foreach (var header in eTagCacheItem.ContentHeaders)
+                {
+                    byteArrayContent.Headers.TryAddWithoutValidation(header.Key, header.Value);
+                }
+            }
+
+            // 设置响应内容
+            httpResponseMessage.Content = byteArrayContent;
+        }
+
+        // 空检查
+        if (eTagCacheItem.ResponseHeaders is not null)
+        {
+            // 还原响应标头
+            foreach (var header in eTagCacheItem.ResponseHeaders)
+            {
+                httpResponseMessage.Headers.TryAddWithoutValidation(header.Key, header.Value);
+            }
+        }
+
+        // 设置原因短语
+        httpResponseMessage.ReasonPhrase = eTagCacheItem.ReasonPhrase;
+
+        return httpResponseMessage;
+    }
+}

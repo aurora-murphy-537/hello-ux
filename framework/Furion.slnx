@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="../tests/Furion.IntegrationTests/Furion.IntegrationTests.csproj" />
+    <Project Path="../tests/Furion.TestProject/Furion.TestProject.csproj" />
+    <Project Path="../tests/Furion.UnitTests/Furion.UnitTests.csproj" />
+  </Folder>
+  <Project Path="Furion.Extras.Authentication.JwtBearer/Furion.Extras.Authentication.JwtBearer.csproj" />
+  <Project Path="Furion.Extras.ObjectMapper.Mapster/Furion.Extras.ObjectMapper.Mapster.csproj" />
+  <Project Path="Furion.Xunit/Furion.Xunit.csproj" />
+  <Project Path="Furion/Furion.csproj" />
+</Solution>

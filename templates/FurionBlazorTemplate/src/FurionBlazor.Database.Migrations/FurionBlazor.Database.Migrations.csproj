@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<LangVersion>preview</LangVersion>
+		<TargetFramework>$(framework)</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\FurionBlazor.EntityFramework.Core\FurionBlazor.EntityFramework.Core.csproj" />
+	</ItemGroup>
+
+</Project>
