@@ -114,3 +114,4 @@ public class DateOnlyAttribute : ValidationBaseAttribute
             ? nameof(ValidationMessages.DateOnlyValidator_ValidationError)
             : nameof(ValidationMessages.DateOnlyValidator_ValidationError_Formats);
 }
+// 19e60e

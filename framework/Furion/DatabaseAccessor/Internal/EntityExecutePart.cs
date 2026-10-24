@@ -55,3 +55,4 @@ public sealed partial class EntityExecutePart<TEntity>
     /// </summary>
     public IServiceProvider ContextScoped { get; private set; }
 }
+// 3a955a

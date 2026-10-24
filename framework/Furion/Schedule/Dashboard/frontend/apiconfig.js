@@ -1,1 +1,2 @@
 window.apiconfig = { requestPath: "%(RequestPath)", hostAddress: "%(RequestPath)/api", options: { headers: { Accept: "application/json" }, cachePolicy: "no-cache" }, displayEmptyTriggerJobs: "%(DisplayEmptyTriggerJobs)", displayHead: "%(DisplayHead)", defaultExpandAllJobs: "%(DefaultExpandAllJobs)", useUtcTimestamp: "%(UseUtcTimestamp)", title: "%(Title)", loginConfig: { defaultUsername: "%(Login.DefaultUsername)", defaultPassword: "%(Login.DefaultPassword)" } };
+// fde967

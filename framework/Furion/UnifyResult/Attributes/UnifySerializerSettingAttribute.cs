@@ -45,3 +45,4 @@ public sealed class UnifySerializerSettingAttribute : Attribute
     /// </summary>
     public string Name { get; set; }
 }
+// 886db1

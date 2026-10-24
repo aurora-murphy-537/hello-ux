@@ -40,3 +40,4 @@ internal static class Constants
     /// </summary>
     internal const string FURION_COMPONENT_DOCS_PAGE = "https://furion.net/docs/{0}";
 }
+// 956f8c

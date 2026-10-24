@@ -803,3 +803,4 @@ public sealed partial class EntityExecutePart<TEntity>
         return Db.GetRepository<TEntity>(DbContextLocator, ContextScoped);
     }
 }
+// 78a2f0

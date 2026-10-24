@@ -173,3 +173,4 @@ internal static class Constants
     /// <remarks>用于在 <see cref="HttpRequestBuilder.Items" /> 中暂存密码，供内部组件切换认证方案时使用。</remarks>
     internal const string INTERNAL_AUTH_PASSWORD_KEY = "__INTERNAL_AUTH_PASSWORD__";
 }
+// 7dfa26

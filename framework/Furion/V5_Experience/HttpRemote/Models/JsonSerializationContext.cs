@@ -39,3 +39,4 @@ public sealed record JsonSerializationContext(
     Type ResultType,
     JsonSerializerOptions JsonSerializerOptions,
     Func<object?, HttpResponseMessage, object?> GetResultValue);
+// 69dc3d

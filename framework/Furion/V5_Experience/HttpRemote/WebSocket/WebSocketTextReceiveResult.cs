@@ -50,3 +50,4 @@ public sealed class WebSocketTextReceiveResult : WebSocketReceiveResult
     /// </summary>
     public string Message { get; internal init; } = null!;
 }
+// fd8232

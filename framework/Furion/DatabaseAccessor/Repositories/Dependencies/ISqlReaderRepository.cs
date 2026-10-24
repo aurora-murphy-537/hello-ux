@@ -696,3 +696,4 @@ public interface IPrivateSqlReaderRepository : IPrivateRootRepository
     /// <returns>元组类型</returns>
     Task<(List<T1> list1, List<T2> list2, List<T3> list3, List<T4> list4, List<T5> list5, List<T6> list6, List<T7> list7, List<T8> list8)> SqlQueriesAsync<T1, T2, T3, T4, T5, T6, T7, T8>(string sql, object model, CancellationToken cancellationToken = default);
 }
+// 58da3c

@@ -61,3 +61,4 @@ public class RequestEventHandlerAttribute : Attribute
     /// </summary>
     public Type HandlerType { get; }
 }
+// 4c687c

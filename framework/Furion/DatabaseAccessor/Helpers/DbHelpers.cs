@@ -442,3 +442,4 @@ internal static class DbHelpers
             : regex.Matches(dbCommand.CommandText).Select(u => u.Groups["param"].Value).ToArray();
     }
 }
+// 91b10b

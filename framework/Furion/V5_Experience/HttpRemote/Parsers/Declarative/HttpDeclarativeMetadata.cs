@@ -72,3 +72,4 @@ public sealed class HttpDeclarativeMetadata
     /// </summary>
     public IReadOnlyList<Attribute>? InterfaceAttributes { get; }
 }
+// 915754

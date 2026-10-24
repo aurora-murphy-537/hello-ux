@@ -31,3 +31,4 @@ namespace Furion.DynamicApiController;
 public interface IDynamicApiController
 {
 }
+// c6b65f

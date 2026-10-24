@@ -50,3 +50,4 @@ public class EmailAddressStrictAttribute : ValidationBaseAttribute
     /// <inheritdoc />
     public override bool IsValid(object? value) => _validator.IsValid(value);
 }
+// c266e1

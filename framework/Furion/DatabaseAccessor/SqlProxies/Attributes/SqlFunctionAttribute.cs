@@ -39,3 +39,4 @@ public class SqlFunctionAttribute : SqlObjectProxyAttribute
     {
     }
 }
+// c74d76

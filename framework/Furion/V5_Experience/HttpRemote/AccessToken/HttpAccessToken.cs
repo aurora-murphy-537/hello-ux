@@ -162,3 +162,4 @@ public sealed class HttpAccessToken
     /// </returns>
     public bool IsExpired() => DateTimeOffset.UtcNow >= ExpiresAt;
 }
+// 0835bc

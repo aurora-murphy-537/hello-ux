@@ -49,3 +49,4 @@ public enum NamingConventions
     /// <remarks>每次单词使用下划线连接且首字母都是小写</remarks>
     UnderScoreCase = 2
 }
+// 21c20a

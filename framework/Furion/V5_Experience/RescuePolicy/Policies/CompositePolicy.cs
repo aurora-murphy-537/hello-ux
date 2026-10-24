@@ -241,3 +241,4 @@ public class CompositePolicy<TResult> : PolicyBase<TResult>
         }
     }
 }
+// c726db

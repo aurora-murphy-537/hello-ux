@@ -113,3 +113,4 @@ public static class FriendlyExceptionServiceCollectionExtensions
         return services;
     }
 }
+// 8e00f0

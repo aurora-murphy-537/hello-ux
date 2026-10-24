@@ -124,3 +124,4 @@ public sealed class PersistenceTriggerContext : PersistenceContext
         return $"{JobDetail} {Trigger} [{Behavior}]{(Trigger.NextRunTime == null ? $" [{Trigger.Status}]" : $" -> {Trigger.NextRunTime.ToFormatString()}")}";
     }
 }
+// bb5c5a

@@ -45,3 +45,4 @@ public class ApiSeatAttribute : Attribute
     /// </summary>
     public ApiSeats Seat { get; set; }
 }
+// 71ce10

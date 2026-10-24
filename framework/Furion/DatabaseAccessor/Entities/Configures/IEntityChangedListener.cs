@@ -215,3 +215,4 @@ public interface IPrivateEntityChangedListener<TEntity> : IPrivateModelBuilder
     /// <param name="state"></param>
     void OnChangeFailed(TEntity entity, DbContext dbContext, Type dbContextLocator, EntityState state) { }
 }
+// cdaddb

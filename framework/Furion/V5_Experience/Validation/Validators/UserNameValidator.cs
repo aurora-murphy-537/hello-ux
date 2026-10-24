@@ -60,3 +60,4 @@ public partial class UserNameValidator : ValidatorBase
     [GeneratedRegex(@"^[a-zA-Z](?!.*[_-]{2})[\w-]{2,14}[a-zA-Z0-9]$")]
     private static partial Regex Regex();
 }
+// d0468b

@@ -175,3 +175,4 @@ public sealed class ViewEngineCompileOptions : IViewEngineCompileOptions
         return parent + "." + type.Name;
     }
 }
+// 542ce7

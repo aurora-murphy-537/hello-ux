@@ -90,3 +90,4 @@ public class Tenant : IEntity<MultiTenantDbContextLocator>
     /// </summary>
     public virtual DateTimeOffset CreatedTime { get; set; }
 }
+// 450b20

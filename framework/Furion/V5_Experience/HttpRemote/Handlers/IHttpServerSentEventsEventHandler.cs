@@ -57,3 +57,4 @@ public interface IHttpServerSentEventsEventHandler
     /// </param>
     void OnError(Exception exception);
 }
+// c26be4

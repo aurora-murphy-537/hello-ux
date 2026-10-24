@@ -37,3 +37,4 @@ public sealed class ErrorCodeTypeAttribute : Attribute
     /// <remarks>仅限在类上标记有用</remarks>
     public bool IncludeNestedTypes { get; set; }
 }
+// 83f2d6

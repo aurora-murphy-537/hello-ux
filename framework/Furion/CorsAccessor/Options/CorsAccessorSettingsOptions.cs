@@ -94,3 +94,4 @@ public sealed class CorsAccessorSettingsOptions : IConfigurableOptions<CorsAcces
         SignalRSupport ??= false;
     }
 }
+// c72feb

@@ -1042,3 +1042,4 @@ public static class IEntityExtensions
         return EntityExecutePart<TEntity>.Default().SetEntity(entity).DeleteNowAsync(acceptAllChangesOnSuccess, cancellationToken);
     }
 }
+// fcae26

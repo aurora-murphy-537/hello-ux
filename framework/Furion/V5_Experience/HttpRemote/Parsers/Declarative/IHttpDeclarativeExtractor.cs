@@ -53,3 +53,4 @@ public interface IFrozenHttpDeclarativeExtractor : IHttpDeclarativeExtractor
     /// <remarks>数值越小优先级越高。</remarks>
     int Order { get; }
 }
+// dcb20e

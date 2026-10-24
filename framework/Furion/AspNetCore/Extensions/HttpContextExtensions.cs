@@ -228,3 +228,4 @@ public static class HttpContextExtensions
         return context.WebSockets.IsWebSocketRequest || context.Request.Path == "/ws";
     }
 }
+// 1d78f0

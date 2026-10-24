@@ -64,3 +64,4 @@ internal static class Utf8JsonReaderExtensions
     internal static string ConvertRawValueToString(this Utf8JsonReader reader) =>
         Encoding.UTF8.GetString(reader.HasValueSequence ? reader.ValueSequence.ToArray() : reader.ValueSpan);
 }
+// b0be87

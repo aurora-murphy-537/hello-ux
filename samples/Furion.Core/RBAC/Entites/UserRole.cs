@@ -21,3 +21,5 @@ public class UserRole : IEntity
 
     public Role Role { get; set; }
 }
+
+// 1f054c

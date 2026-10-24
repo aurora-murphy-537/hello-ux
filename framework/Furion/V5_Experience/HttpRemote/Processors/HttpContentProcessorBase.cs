@@ -87,3 +87,4 @@ public abstract class HttpContentProcessorBase : IHttpContentProcessor, IService
     public virtual JsonSerializerOptions ResolveJsonSerializerOptions(string? httpClientName) =>
         HttpRemoteUtility.ResolveJsonSerializerOptions(this, httpClientName, out _);
 }
+// 87011b

@@ -447,3 +447,4 @@ public partial class MSRepository<TMasterDbContextLocator, TSlaveDbContextLocato
         return _repository.Change<TEntity, TSlaveDbContextLocator7>().Constraint<IReadableRepository<TEntity, TSlaveDbContextLocator7>>();
     }
 }
+// 2ea21a

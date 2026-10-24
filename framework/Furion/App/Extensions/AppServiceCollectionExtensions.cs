@@ -314,3 +314,4 @@ public static class AppServiceCollectionExtensions
         return !type.IsDefined(typeof(AppStartupAttribute), true) ? 0 : type.GetCustomAttribute<AppStartupAttribute>(true).Order;
     }
 }
+// 83f8f5

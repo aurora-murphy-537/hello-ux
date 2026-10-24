@@ -252,3 +252,4 @@ public interface IPrivateDeletableRepository<TEntity> : IPrivateRootRepository
     /// <returns></returns>
     Task<int> DeleteNowAsync(object key, bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default);
 }
+// c3d631

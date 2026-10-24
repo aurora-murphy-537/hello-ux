@@ -102,3 +102,4 @@ public class AppDbContextAttribute : Attribute
     /// </summary>
     public bool UseSnakeCaseNaming { get; set; }
 }
+// 197b33

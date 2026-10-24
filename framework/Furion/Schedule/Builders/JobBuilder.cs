@@ -427,3 +427,4 @@ public sealed class JobBuilder : JobDetail
         return this.MapTo<JobDetail>();
     }
 }
+// 39d19f

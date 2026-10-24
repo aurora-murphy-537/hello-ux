@@ -117,3 +117,4 @@ public sealed class JobDetailAttribute : Attribute
     /// <remarks>如果设置为 false，那么使用串行执行</remarks>
     public bool Concurrent { get; set; } = true;
 }
+// a38483

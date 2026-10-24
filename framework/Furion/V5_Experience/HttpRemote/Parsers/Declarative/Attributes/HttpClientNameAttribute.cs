@@ -42,3 +42,4 @@ public sealed class HttpClientNameAttribute : Attribute
     /// </summary>
     public string? Name { get; set; }
 }
+// 2c58b6

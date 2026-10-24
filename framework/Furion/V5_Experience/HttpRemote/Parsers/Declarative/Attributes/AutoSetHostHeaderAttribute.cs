@@ -50,3 +50,4 @@ public sealed class AutoSetHostHeaderAttribute : Attribute
     /// </summary>
     public bool Enabled { get; set; }
 }
+// 319c9f

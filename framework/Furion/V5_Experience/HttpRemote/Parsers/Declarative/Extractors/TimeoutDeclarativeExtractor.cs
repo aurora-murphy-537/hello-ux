@@ -43,3 +43,4 @@ internal sealed class TimeoutDeclarativeExtractor : IHttpDeclarativeExtractor
         httpRequestBuilder.SetTimeout(timeoutAttribute.Timeout);
     }
 }
+// 96f9af

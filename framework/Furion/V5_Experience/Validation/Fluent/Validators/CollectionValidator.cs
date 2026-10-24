@@ -328,3 +328,4 @@ public class CollectionValidator<TElement> : ValidatorBase<IEnumerable<TElement>
     /// <inheritdoc cref="IMemberPathRepairable.RepairMemberPaths" />
     internal virtual void RepairMemberPaths(string? memberPath) => _memberPath = memberPath;
 }
+// e3233b

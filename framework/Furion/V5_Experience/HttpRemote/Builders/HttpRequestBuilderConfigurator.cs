@@ -182,3 +182,4 @@ public abstract class HttpRequestBuilderConfigurator<THttpBuilder>
         With(builder =>
             builder.SetContent(rawContent, contentType, contentEncoding, disposeResourcesOnRequestCompletion));
 }
+// 1623bd

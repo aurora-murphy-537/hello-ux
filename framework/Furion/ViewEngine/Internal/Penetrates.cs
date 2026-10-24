@@ -69,3 +69,4 @@ internal static class Penetrates
         return assembly.GetType(TemplateTypeName) ?? throw new InvalidOperationException("Template type not found in compiled assembly.");
     }
 }
+// 5e7528

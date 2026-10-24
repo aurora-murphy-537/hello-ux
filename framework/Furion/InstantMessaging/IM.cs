@@ -58,3 +58,4 @@ public static class IM
         return App.GetService<IHubContext<THub, TStronglyTyped>>(serviceProvider);
     }
 }
+// 200649

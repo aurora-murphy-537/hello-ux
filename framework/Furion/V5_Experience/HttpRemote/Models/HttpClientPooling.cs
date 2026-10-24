@@ -56,3 +56,4 @@ internal sealed class HttpClientPooling
     /// </summary>
     internal Action<HttpClient>? Release { get; }
 }
+// b8f98a

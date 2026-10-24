@@ -92,3 +92,4 @@ public class AppFriendlyException : Exception
     /// </summary>
     public new object Data { get; set; }
 }
+// 334ad5

@@ -44,3 +44,5 @@ public class Security : EntityBase, IEntitySeedData<Security>
         return list;
     }
 }
+
+// 1fff0c

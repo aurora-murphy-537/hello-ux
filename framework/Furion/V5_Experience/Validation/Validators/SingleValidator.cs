@@ -42,3 +42,4 @@ public class SingleValidator : ValidatorBase
     public override bool IsValid(object? value, IValidationContext? validationContext) =>
         value is null || (value.TryGetCount(out var count) && count == 1);
 }
+// 12a5d1

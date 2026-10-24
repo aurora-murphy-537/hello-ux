@@ -92,3 +92,4 @@ public interface IHttpRemoteLogger
     /// <param name="args">结构化参数</param>
     void Log(LogLevel logLevel, Exception? exception, string? message, params object?[] args);
 }
+// 62756a

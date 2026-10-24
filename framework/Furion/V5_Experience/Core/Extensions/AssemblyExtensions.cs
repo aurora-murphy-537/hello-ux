@@ -106,3 +106,4 @@ internal static class AssemblyExtensions
         return configure.Invoke(assembly);
     }
 }
+// 4756cb

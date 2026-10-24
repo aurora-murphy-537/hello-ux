@@ -31,3 +31,4 @@ namespace Furion.DatabaseAccessor;
 public interface IPrivateRootRepository : IDisposable
 {
 }
+// d40060

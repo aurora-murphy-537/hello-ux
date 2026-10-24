@@ -90,3 +90,4 @@ public static class HttpRemoteServerSentEventsExtensions
             : mcpError.Data.Value.Deserialize<T>(
                 jsonSerializerOptions ?? HttpRemoteOptions.JsonSerializerOptionsDefault);
 }
+// 68755f

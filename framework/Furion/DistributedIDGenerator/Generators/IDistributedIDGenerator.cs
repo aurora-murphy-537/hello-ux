@@ -37,3 +37,4 @@ public interface IDistributedIDGenerator
     /// <returns></returns>
     object Create(object idGeneratorOptions = default);
 }
+// 7a5ad2

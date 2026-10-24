@@ -44,3 +44,4 @@ public static class IHtmlLocalizerFactoryExtensions
         return htmlLocalizerFactory.Create(localizationSettings.LanguageFilePrefix, localizationSettings.AssemblyName);
     }
 }
+// 537b6e

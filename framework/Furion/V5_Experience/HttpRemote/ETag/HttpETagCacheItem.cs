@@ -63,3 +63,4 @@ public sealed class HttpETagCacheItem
     /// </summary>
     public string? ReasonPhrase { get; set; }
 }
+// f09591

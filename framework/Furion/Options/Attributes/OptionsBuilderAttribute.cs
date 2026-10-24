@@ -72,3 +72,4 @@ public sealed class OptionsBuilderAttribute : Attribute
     /// </summary>
     public Type[] ValidateOptionsTypes { get; set; }
 }
+// 497db7

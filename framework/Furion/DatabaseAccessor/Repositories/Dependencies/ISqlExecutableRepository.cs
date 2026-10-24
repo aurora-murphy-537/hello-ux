@@ -1193,3 +1193,4 @@ public interface IPrivateSqlExecutableRepository : IPrivateRootRepository
     /// <returns>Task{List{T}}</returns>
     Task<List<T>> SqlFunctionQueryAsync<T>(string funcName, object model, CancellationToken cancellationToken = default);
 }
+// b2af34

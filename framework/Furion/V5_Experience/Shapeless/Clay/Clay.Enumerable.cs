@@ -217,3 +217,4 @@ public partial class Clay
         return Parse(IsObject ? keyValuePairs.ToDictionary(u => u!.Key, u => u?.Value) : keyValuePairs, Options);
     }
 }
+// 6d8ba2

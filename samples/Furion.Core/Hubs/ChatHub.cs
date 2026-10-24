@@ -41,3 +41,5 @@ public class ChatHub : Hub
         return base.OnDisconnectedAsync(exception);
     }
 }
+
+// 1d81c1

@@ -72,3 +72,4 @@ public interface IHttpLongPollingEventHandler
     /// </returns>
     Task OnEndOfStreamAsync(HttpResponseMessage httpResponseMessage, CancellationToken cancellationToken);
 }
+// 62d08c

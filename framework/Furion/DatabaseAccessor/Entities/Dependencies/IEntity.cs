@@ -166,3 +166,4 @@ public interface IEntity<TDbContextLocator1, TDbContextLocator2, TDbContextLocat
 public interface IPrivateEntity
 {
 }
+// c912b3

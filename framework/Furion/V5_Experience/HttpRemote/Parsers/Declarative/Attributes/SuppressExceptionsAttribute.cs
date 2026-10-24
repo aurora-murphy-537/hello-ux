@@ -57,3 +57,4 @@ public sealed class SuppressExceptionsAttribute : Attribute
     /// </summary>
     public Type[] Types { get; set; }
 }
+// a82f99

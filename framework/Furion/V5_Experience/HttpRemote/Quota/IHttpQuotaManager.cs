@@ -45,3 +45,4 @@ public interface IHttpQuotaManager
     /// <exception cref="InvalidOperationException"></exception>
     bool TryIncrement(string? httpClientName, string quotaKey, HttpQuotaLimit quotaLimit, out int current);
 }
+// ca9d69

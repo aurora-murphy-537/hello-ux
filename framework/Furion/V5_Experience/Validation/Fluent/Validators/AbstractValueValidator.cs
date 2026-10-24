@@ -30,3 +30,4 @@ namespace Furion.Validation;
 /// </summary>
 /// <typeparam name="T">对象类型</typeparam>
 public abstract class AbstractValueValidator<T> : ValueValidator<T>;
+// 471a6b

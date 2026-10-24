@@ -40,3 +40,4 @@ public interface IServiceComponent : IComponent
     /// <param name="componentContext">组件上下文</param>
     void Load(IServiceCollection services, ComponentContext componentContext);
 }
+// 985747

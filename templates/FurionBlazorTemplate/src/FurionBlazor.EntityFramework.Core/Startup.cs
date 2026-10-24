@@ -13,3 +13,5 @@ public class Startup : AppStartup
         }, "FurionBlazor.Database.Migrations");
     }
 }
+
+// 2e8273

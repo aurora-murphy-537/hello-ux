@@ -67,3 +67,4 @@ public class MyResult<T>
     /// </summary>
     public T Data { get; set; }
 }
+// db3f88

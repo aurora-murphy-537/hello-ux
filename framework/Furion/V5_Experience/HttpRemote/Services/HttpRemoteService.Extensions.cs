@@ -238,3 +238,4 @@ internal sealed partial class HttpRemoteService
     /// <inheritdoc />
     public object? For(Type serviceType) => ServiceProvider.GetService(serviceType);
 }
+// d48734

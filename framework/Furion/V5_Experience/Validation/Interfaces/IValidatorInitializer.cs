@@ -36,3 +36,4 @@ public interface IValidatorInitializer
     /// <param name="serviceProvider"><see cref="IServiceProvider" /> 委托</param>
     void InitializeServiceProvider(Func<Type, object?>? serviceProvider);
 }
+// 6ace42

@@ -43,3 +43,4 @@ internal sealed class EnsureSuccessStatusCodeDeclarativeExtractor : IHttpDeclara
         httpRequestBuilder.EnsureSuccessStatusCode(ensureSuccessStatusCodeAttribute.Enabled);
     }
 }
+// a7a34a

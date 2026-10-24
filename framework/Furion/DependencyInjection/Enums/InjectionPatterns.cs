@@ -62,3 +62,4 @@ public enum InjectionPatterns
     [Description("自己包括所有接口")]
     All
 }
+// 5dc4da

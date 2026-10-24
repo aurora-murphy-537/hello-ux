@@ -43,3 +43,4 @@ internal sealed class TraceIdentifierDeclarativeExtractor : IHttpDeclarativeExtr
         httpRequestBuilder.SetTraceIdentifier(traceIdentifierAttribute.Identifier);
     }
 }
+// f5376f

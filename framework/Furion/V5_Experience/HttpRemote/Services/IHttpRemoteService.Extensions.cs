@@ -566,3 +566,4 @@ public partial interface IHttpRemoteService
     /// </returns>
     object? For(Type serviceType);
 }
+// b87fbb

@@ -88,3 +88,4 @@ public interface IValidationDataContext
     /// </remarks>
     bool HasValidationOptions();
 }
+// d92269

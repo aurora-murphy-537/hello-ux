@@ -145,3 +145,4 @@ public sealed partial class Crontab
         return string.Join(",", fields.Select(f => f.ToString()).ToArray());
     }
 }
+// 5d312f

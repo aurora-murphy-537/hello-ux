@@ -45,3 +45,4 @@ public sealed class SchedulerModel
     [JsonInclude]
     public Trigger[] Triggers { get; internal set; }
 }
+// ef958c

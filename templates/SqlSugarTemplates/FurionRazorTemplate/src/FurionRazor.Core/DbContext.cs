@@ -20,3 +20,5 @@ public static class DbContext
             // 这里配置全局事件，比如拦截执行 SQL
         });
 }
+
+// 379f7d

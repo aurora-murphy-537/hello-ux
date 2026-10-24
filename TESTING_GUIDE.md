@@ -46,3 +46,4 @@ dotnet add package Microsoft.AspNetCore.Mvc.Testing
 ---
 
 请注意，在实际项目中，您需要根据 Furion 项目的实际情况填充测试类的具体内容。上述指南只是提供了安装测试依赖和大致的测试框架使用方向，详细的实际测试代码请参考链接中的官方文档。
+

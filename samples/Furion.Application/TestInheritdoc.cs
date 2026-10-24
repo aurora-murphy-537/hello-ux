@@ -73,3 +73,4 @@ public interface ITestInheritdoc
     /// <returns></returns>
     string Private(int id);
 }
+// bcb2a3

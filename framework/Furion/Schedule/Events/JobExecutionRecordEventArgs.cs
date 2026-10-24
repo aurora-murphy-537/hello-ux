@@ -44,3 +44,4 @@ public sealed class JobExecutionRecordEventArgs : EventArgs
     /// </summary>
     public PersistenceExecutionRecordContext Context { get; }
 }
+// d3336a

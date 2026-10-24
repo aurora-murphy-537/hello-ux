@@ -89,3 +89,4 @@ internal sealed partial class ChannelEventSourceStorer : IEventSourceStorer
         }
     }
 }
+// c70143

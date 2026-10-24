@@ -579,3 +579,4 @@ internal sealed class ServerSentEventsManager
         await _httpServerSentEventsBuilder.OnMessage.TryInvokeAsync(serverSentEventsData, cancellationToken);
     }
 }
+// fe171d

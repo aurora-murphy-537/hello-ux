@@ -39,3 +39,4 @@ public class HelloService
 ## 协议
 
 [Furion](https://gitee.com/dotnetchina/Furion) 采用 [MIT](https://gitee.com/dotnetchina/Furion/blob/v4/LICENSE.zh) 开源协议。
+

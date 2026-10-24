@@ -86,3 +86,4 @@ public interface IEventBusFactory
     /// <returns></returns>
     Task Unsubscribe(string eventId, CancellationToken cancellationToken = default);
 }
+// 9d99ff

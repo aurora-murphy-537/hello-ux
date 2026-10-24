@@ -57,3 +57,4 @@ public sealed class JobFactoryContext
     /// <remarks>默认为定时触发，0:定时，1:手动</remarks>
     public int Mode { get; internal set; }
 }
+// 03f9e2

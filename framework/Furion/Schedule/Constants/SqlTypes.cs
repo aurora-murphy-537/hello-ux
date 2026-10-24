@@ -66,3 +66,4 @@ public enum SqlTypes
     /// </summary>
     Firebird = 6
 }
+// 2a20aa

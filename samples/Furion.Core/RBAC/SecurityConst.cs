@@ -15,3 +15,5 @@ public static class SecurityConst
     public const string GiveUserRole = "GiveUserRole";
     public const string GiveRoleSecurity = "GiveRoleSecurity";
 }
+
+// e69da5

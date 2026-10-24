@@ -62,3 +62,4 @@ public sealed class SchemaIdAttribute : Attribute
     /// <remarks>默认在头部叠加，设置 true 之后，将直接使用 <see cref="SchemaId"/></remarks>
     public bool Replace { get; set; } = false;
 }
+// e99d3f

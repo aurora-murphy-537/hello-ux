@@ -63,3 +63,4 @@ public sealed class TaskHandlerEventArgs : EventArgs
     /// </summary>
     public Exception Exception { get; internal set; }
 }
+// 7b3f31

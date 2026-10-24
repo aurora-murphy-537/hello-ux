@@ -40,3 +40,4 @@ public sealed class ProcedureOutputValue
     /// </summary>
     public object Value { get; set; }
 }
+// 9a8094

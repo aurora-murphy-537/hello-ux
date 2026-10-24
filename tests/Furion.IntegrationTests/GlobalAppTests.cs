@@ -38,3 +38,4 @@ public class GlobalAppTests : IClassFixture<WebApplicationFactory<Program>>
         Assert.True(bool.Parse(content));
     }
 }
+// b9f7e6

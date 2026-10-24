@@ -35,3 +35,4 @@ public sealed class SensitiveDetectionBuilder
     /// </summary>
     public string EmbedFileName { get; set; } = "sensitive-words.txt";
 }
+// 428e57

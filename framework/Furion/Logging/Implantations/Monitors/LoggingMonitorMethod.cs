@@ -78,3 +78,4 @@ public sealed class LoggingMonitorMethod
     /// </summary>
     public ContractResolverTypes ContractResolver { get; set; } = ContractResolverTypes.CamelCase;
 }
+// cdecf5

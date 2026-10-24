@@ -52,3 +52,4 @@ internal sealed class OptionsBuilderMethodMapAttribute : Attribute
     /// </summary>
     internal bool VoidReturn { get; set; }
 }
+// 5fa7be

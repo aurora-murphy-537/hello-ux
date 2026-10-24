@@ -64,3 +64,4 @@ public interface ITaskQueue : IDisposable
     /// <param name="args">事件参数</param>
     void InvokeEvents(TaskHandlerEventArgs args);
 }
+// 4ea29a

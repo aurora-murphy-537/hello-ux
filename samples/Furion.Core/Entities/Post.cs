@@ -24,3 +24,5 @@ public class Post : Entity
     /// </summary>
     public ICollection<Person> Persons { get; set; }
 }
+
+// a258c7

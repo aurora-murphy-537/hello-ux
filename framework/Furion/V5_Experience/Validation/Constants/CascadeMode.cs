@@ -40,3 +40,4 @@ public enum CascadeMode
     /// </summary>
     FailFast
 }
+// 7ddaad

@@ -123,3 +123,4 @@ public interface IHttpContentConverterFactory
     /// </returns>
     IHttpContentConverter GetConverter(Type resultType, HttpContentConverterContext context);
 }
+// cc0245

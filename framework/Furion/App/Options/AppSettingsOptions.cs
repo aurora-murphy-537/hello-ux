@@ -113,3 +113,4 @@ public class JsonFileScanner
     /// </summary>
     public bool ReloadOnChange { get; set; } = true;
 }
+// 0c2297

@@ -44,3 +44,4 @@ public sealed class SchedulerEventArgs : EventArgs
     /// </summary>
     public JobDetail JobDetail { get; }
 }
+// 43cabe

@@ -50,3 +50,4 @@ public interface IEventSource
     /// </summary>
     bool ConsumeOnce { get; }
 }
+// a7af53

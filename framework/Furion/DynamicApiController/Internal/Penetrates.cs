@@ -142,3 +142,4 @@ internal static class Penetrates
     /// <remarks>返回 <c>true</c> 将生成 Action，否则跳过。</remarks>
     internal static Action<ActionModel> ActionConfigure { get; set; }
 }
+// 693470

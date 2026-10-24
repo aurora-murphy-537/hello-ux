@@ -41,3 +41,4 @@ public class ByteArrayContentConverter : HttpContentConverterBase<byte[]>
         CancellationToken cancellationToken = default) =>
         await context.ResponseMessage.Content.ReadAsByteArrayAsync(cancellationToken);
 }
+// 6396c9

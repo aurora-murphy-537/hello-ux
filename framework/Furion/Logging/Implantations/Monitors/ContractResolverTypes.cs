@@ -41,3 +41,4 @@ public enum ContractResolverTypes
     /// </summary>
     Default = 1
 }
+// 1f2fa8

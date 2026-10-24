@@ -42,3 +42,4 @@ public enum ValidationPattern
     [Description("有一个通过就为真")]
     AtLeastOne
 }
+// 7ccee2

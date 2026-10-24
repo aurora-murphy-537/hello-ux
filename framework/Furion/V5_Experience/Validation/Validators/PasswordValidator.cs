@@ -84,3 +84,4 @@ public partial class PasswordValidator : ValidatorBase
     [GeneratedRegex(@"\A(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*]).{12,64}\z")]
     private static partial Regex StrongRegex();
 }
+// 71db29

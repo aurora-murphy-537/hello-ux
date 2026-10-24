@@ -195,3 +195,4 @@ public interface IPrivateEntityMutableTable<TEntity> : IPrivateModelBuilder
     /// <returns>至少包含一个元素，最多不能超过两个。第一个元素为表名，第二个元素为 schema 架构名</returns>
     string[] GetTableName(DbContext dbContext, Type dbContextLocator);
 }
+// f1f4a2

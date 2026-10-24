@@ -31,3 +31,4 @@ namespace Furion.DependencyInjection;
 public interface ISingleton : IPrivateDependency
 {
 }
+// 3c2fdb

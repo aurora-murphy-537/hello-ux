@@ -66,3 +66,4 @@ public sealed class SystemTextJsonDataSetJsonConverter : JsonConverter<DataSet>
         writer.WriteEndObject();
     }
 }
+// d2da2a

@@ -454,3 +454,4 @@ public sealed partial class HttpRequestBuilder
     /// <remarks>用于测试错误场景。</remarks>
     internal Exception? MockedException { get; private set; }
 }
+// 0c5474

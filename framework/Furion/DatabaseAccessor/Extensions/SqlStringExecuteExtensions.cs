@@ -2373,3 +2373,4 @@ public static class SqlStringExecuteExtensions
         return SqlExecutePart.Default().SetSqlString(funcName).SqlFunctionQueryAsync<T>(model, cancellationToken);
     }
 }
+// 239efa

@@ -1124,3 +1124,4 @@ public static class IEntityWithDbContextLocatorExtensions
         return EntityExecutePart<TEntity>.Default().SetEntity(entity).Change<TDbContextLocator>().DeleteNowAsync(acceptAllChangesOnSuccess, cancellationToken);
     }
 }
+// afacc1

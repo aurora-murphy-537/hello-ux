@@ -41,3 +41,4 @@ public class StringContentConverter : HttpContentConverterBase<string>
         CancellationToken cancellationToken = default) =>
         await context.ResponseMessage.Content.ReadAsStringAsync(cancellationToken);
 }
+// 84fc48

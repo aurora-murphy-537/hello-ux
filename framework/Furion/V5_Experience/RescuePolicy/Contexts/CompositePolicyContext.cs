@@ -51,3 +51,4 @@ public sealed class CompositePolicyContext<TResult> : PolicyContextBase
     /// <inheritdoc cref="System.Exception" />
     public System.Exception? Exception { get; internal set; }
 }
+// fd6224

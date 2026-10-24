@@ -90,3 +90,4 @@ public sealed class ConsoleFormatterExtendOptions : ConsoleFormatterOptions
     /// <remarks></remarks>
     public IFormatProvider? FormatProvider { get; set; } = CultureInfo.InvariantCulture;
 }
+// f29f7b

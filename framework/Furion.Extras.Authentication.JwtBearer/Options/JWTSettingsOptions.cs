@@ -97,3 +97,4 @@ public sealed class JWTSettingsOptions
     /// <remarks>默认 "Authorization"。</remarks>
     public string[]? TokenHeaders { get; set; }
 }
+// b34701

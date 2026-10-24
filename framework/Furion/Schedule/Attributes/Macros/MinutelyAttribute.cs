@@ -39,3 +39,4 @@ public sealed class MinutelyAttribute : CronAttribute
     {
     }
 }
+// 6bf94b

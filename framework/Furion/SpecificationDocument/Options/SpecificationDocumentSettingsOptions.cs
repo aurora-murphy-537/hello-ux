@@ -214,3 +214,4 @@ public sealed class SpecificationDocumentSettingsOptions : IConfigurableOptions<
         EnumToNumber ??= false;
     }
 }
+// 25ffd6

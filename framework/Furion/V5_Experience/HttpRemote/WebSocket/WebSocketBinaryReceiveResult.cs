@@ -50,3 +50,4 @@ public sealed class WebSocketBinaryReceiveResult : WebSocketReceiveResult
     /// </summary>
     public byte[] Message { get; internal init; } = null!;
 }
+// 5e24ee

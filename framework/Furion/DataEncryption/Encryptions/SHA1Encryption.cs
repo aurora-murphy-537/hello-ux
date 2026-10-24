@@ -89,3 +89,4 @@ public class SHA1Encryption
         return hash.Equals(hashOfInput, StringComparison.OrdinalIgnoreCase);
     }
 }
+// c68bab

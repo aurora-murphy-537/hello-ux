@@ -216,3 +216,4 @@ public partial class Trigger
     /// </summary>
     internal IDictionary<string, object>? ManualRunCustomData { get; set; }
 }
+// 8c0f39

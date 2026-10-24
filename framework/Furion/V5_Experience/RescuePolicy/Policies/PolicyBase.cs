@@ -131,3 +131,4 @@ public abstract class PolicyBase<TResult> : IExceptionPolicy<TResult>
     public abstract Task<TResult?> ExecuteAsync(Func<CancellationToken, Task<TResult?>> operation,
         CancellationToken cancellationToken = default);
 }
+// ff0a5e

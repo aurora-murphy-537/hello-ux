@@ -66,3 +66,4 @@ public interface IJobPersistence
     /// <returns><see cref="Task"/></returns>
     Task OnExecutionRecordAsync(PersistenceExecutionRecordContext context);
 }
+// 10a040

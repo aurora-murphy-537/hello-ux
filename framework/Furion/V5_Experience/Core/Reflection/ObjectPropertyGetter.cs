@@ -147,3 +147,4 @@ public sealed class ObjectPropertyGetter<T> where T : class
     public TProperty? GetPropertyValue<TProperty>(object instance, string propertyName) =>
         (TProperty?)GetPropertyValue(instance, propertyName);
 }
+// 3d393c

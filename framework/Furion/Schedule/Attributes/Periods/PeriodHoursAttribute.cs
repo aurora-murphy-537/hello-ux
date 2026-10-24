@@ -40,3 +40,4 @@ public sealed class PeriodHoursAttribute : PeriodAttribute
     {
     }
 }
+// 7b20bc

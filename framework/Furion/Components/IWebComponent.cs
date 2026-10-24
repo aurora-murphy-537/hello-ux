@@ -42,3 +42,4 @@ public interface IWebComponent : IComponent
     /// <param name="componentContext">组件上下文</param>
     void Load(WebApplicationBuilder builder, ComponentContext componentContext);
 }
+// 08e4ef

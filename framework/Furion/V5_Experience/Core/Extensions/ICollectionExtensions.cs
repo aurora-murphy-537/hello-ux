@@ -46,3 +46,4 @@ internal static class ICollectionExtensions
         collection is null
         || collection.Count == 0;
 }
+// c6bab9

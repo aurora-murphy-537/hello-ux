@@ -189,3 +189,4 @@ internal sealed partial class StatusCodePipelineHandler : IHttpRequestPipelineHa
     [GeneratedRegex(@"^([<>]=?|=|>|<)(\d+)$")]
     private static partial Regex StatusCodeCompareRegex();
 }
+// 0cf8e1

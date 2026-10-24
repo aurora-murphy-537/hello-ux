@@ -31,3 +31,4 @@ namespace Furion.Shapeless;
 /// <remarks>示例代码：<c>[Clay] dynamic input</c>。</remarks>
 [AttributeUsage(AttributeTargets.Parameter)]
 public sealed class ClayAttribute : Attribute;
+// 1eeeda

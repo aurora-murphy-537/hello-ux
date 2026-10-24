@@ -43,3 +43,4 @@ internal sealed class JsonResponseWrapperDeclarativeExtractor : IHttpDeclarative
         httpRequestBuilder.UseJsonResponseWrapper(jsonResponseWrapperAttribute.Enabled);
     }
 }
+// fc705e

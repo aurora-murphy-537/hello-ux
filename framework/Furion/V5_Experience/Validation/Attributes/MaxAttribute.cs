@@ -80,3 +80,4 @@ public class MaxAttribute : ValidationBaseAttribute
     public override string FormatErrorMessage(string name) =>
         string.Format(CultureInfo.CurrentCulture, ErrorMessageString, name, CompareValue);
 }
+// ecc277

@@ -89,3 +89,4 @@ public static class ShapelessExtensions
         return clay?.PipeTry(transformer);
     }
 }
+// 3d67ee

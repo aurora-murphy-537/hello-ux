@@ -46,3 +46,4 @@ public interface IRepositoryFactory<TEntity, TDbContextLocator>
     /// <returns></returns>
     IRepository<TEntity, TDbContextLocator> CreateRepository();
 }
+// ec34d6

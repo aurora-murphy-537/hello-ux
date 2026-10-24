@@ -160,3 +160,4 @@ public sealed class ConsoleFormatterExtend : ConsoleFormatter, IDisposable
         _disableColors = options.ColorBehavior == LoggerColorBehavior.Disabled || (options.ColorBehavior == LoggerColorBehavior.Default && Console.IsOutputRedirected);
     }
 }
+// 5e087a

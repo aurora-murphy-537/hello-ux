@@ -77,3 +77,4 @@ public sealed class EventSubscribeOperateSource : IEventSource
     /// </summary>
     internal EventSubscribeOperates Operate { get; set; }
 }
+// 48e860

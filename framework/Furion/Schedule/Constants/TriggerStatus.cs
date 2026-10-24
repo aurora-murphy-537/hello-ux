@@ -104,3 +104,4 @@ public enum TriggerStatus : uint
     /// <remarks>作业处理程序类型运行时类型为 null</remarks>
     Unhandled = 12
 }
+// 41968c

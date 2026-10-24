@@ -12,3 +12,4 @@ public class SecurityDto
     /// </summary>
     public string UniqueName { get; set; }
 }
+// 9dd481

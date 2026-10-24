@@ -107,3 +107,4 @@ public interface IHttpContentConverter<TResult> : IHttpContentConverter
     Task<TResult?> ReadAsync(HttpContentConverterContext context,
         CancellationToken cancellationToken = default);
 }
+// 66b15a

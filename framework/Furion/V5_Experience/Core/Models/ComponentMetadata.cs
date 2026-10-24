@@ -74,3 +74,4 @@ internal readonly struct ComponentMetadata
     /// </summary>
     internal string DocumentationPage { get; init; }
 }
+// fb9c1e

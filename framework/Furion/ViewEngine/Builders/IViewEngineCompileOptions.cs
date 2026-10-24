@@ -69,3 +69,4 @@ public interface IViewEngineCompileOptions
     /// <param name="type"></param>
     void Inherits(Type type);
 }
+// 32b35b

@@ -36,3 +36,4 @@ public interface IMultiTenantOnSchema : IPrivateMultiTenant
     /// <returns></returns>
     string GetSchemaName();
 }
+// 28ebf2

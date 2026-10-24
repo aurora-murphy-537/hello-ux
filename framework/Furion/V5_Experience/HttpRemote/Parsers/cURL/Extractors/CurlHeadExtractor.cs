@@ -41,3 +41,4 @@ internal sealed class CurlHeadExtractor : HttpCurlExtractorBase
         // 设置请求方式
         httpRequestBuilder.SetHttpMethod(HttpMethod.Head);
 }
+// 53ee9f

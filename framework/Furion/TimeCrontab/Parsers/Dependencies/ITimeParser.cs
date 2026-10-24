@@ -57,3 +57,4 @@ internal interface ITimeParser
     /// <returns><see cref="int"/></returns>
     int Last();
 }
+// 1d4399

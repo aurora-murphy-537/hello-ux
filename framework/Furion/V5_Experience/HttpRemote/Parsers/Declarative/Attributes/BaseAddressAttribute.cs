@@ -43,3 +43,4 @@ public sealed class BaseAddressAttribute : Attribute
     /// </summary>
     public string? BaseAddress { get; set; }
 }
+// b061f5

@@ -49,3 +49,4 @@ public interface IEventSourceStorer
     /// <returns>事件源对象</returns>
     ValueTask<IEventSource> ReadAsync(CancellationToken cancellationToken);
 }
+// 23aa38

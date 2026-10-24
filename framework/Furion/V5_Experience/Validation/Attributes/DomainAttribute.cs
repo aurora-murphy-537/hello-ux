@@ -51,3 +51,4 @@ public class DomainAttribute : ValidationBaseAttribute
     /// <inheritdoc />
     public override bool IsValid(object? value) => _validator.IsValid(value);
 }
+// 0ad466

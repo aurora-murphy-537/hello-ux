@@ -60,3 +60,4 @@ public sealed class ExceptionMetadata
     /// </summary>
     public Exception Exception { get; internal set; }
 }
+// ff13b3

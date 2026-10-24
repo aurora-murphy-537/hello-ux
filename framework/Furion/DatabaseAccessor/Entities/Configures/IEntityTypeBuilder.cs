@@ -196,3 +196,4 @@ public interface IPrivateEntityTypeBuilder<TEntity> : IPrivateModelBuilder
     /// <param name="dbContextLocator">数据库上下文定位器</param>
     void Configure(EntityTypeBuilder<TEntity> entityBuilder, DbContext dbContext, Type dbContextLocator);
 }
+// a76355

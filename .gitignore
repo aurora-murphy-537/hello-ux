@@ -348,3 +348,4 @@ handbook/build
 framework/**/*.xml
 framework/nupkgs
 tests/Furion.TestProject/templates
+

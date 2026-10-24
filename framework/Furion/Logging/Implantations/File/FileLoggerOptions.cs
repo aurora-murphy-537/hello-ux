@@ -125,3 +125,4 @@ public sealed class FileLoggerOptions
     /// <remarks></remarks>
     public IFormatProvider? FormatProvider { get; set; } = CultureInfo.InvariantCulture;
 }
+// 655311

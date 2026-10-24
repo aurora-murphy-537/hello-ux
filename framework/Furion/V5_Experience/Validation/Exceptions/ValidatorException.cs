@@ -67,3 +67,4 @@ public sealed class ValidatorException : Exception
     [DoesNotReturn]
     public static void Throw(string? errorMessage) => throw new ValidatorException(errorMessage);
 }
+// e3e911

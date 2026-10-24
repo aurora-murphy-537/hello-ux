@@ -29,3 +29,4 @@ namespace Furion.HttpRemote;
 ///     HTTP 远程请求断言委托类
 /// </summary>
 public delegate Task HttpAssertion(HttpAssertionContext context);
+// 3f264f

@@ -147,3 +147,4 @@ public static class ILoggerFactoryExtensions
         return factory;
     }
 }
+// 8216b0

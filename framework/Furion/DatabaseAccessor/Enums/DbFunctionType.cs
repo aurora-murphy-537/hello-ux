@@ -40,3 +40,4 @@ internal enum DbFunctionType
     /// </summary>
     Table
 }
+// c7ef71

@@ -40,3 +40,4 @@ public interface IEventHandlerExecutor
     /// <returns><see cref="Task"/> 实例</returns>
     Task ExecuteAsync(EventHandlerExecutingContext context, Func<EventHandlerExecutingContext, Task> handler, CancellationToken cancellationToken);
 }
+// 3991b7

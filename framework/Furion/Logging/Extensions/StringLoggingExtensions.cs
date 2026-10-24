@@ -676,3 +676,4 @@ public static class StringLoggingExtensions
         StringLoggingPart.Default().SetCategory<TClass>().SetMessage(message).SetArgs(args).SetEventId(eventId).SetException(exception).LogCritical();
     }
 }
+// f7d2a4

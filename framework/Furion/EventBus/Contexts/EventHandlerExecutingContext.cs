@@ -133,3 +133,4 @@ public sealed class EventHandlerExecutingContext<T> : EventHandlerExecutingConte
         return Wrap((ctx, _) => typedHandler(ctx));
     }
 }
+// 2e5248

@@ -538,3 +538,4 @@ public interface IPrivateRepository<TEntity>
         where TChangeEntity : class, IPrivateEntity, new()
         where TChangeDbContextLocator : class, IDbContextLocator;
 }
+// a464f2

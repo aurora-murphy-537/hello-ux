@@ -540,3 +540,4 @@ public partial interface IHttpRemoteService
     HttpResponseResult SendCore(HttpRequestBuilder httpRequestBuilder, HttpCompletionOption completionOption,
         CancellationToken cancellationToken = default);
 }
+// e988d4

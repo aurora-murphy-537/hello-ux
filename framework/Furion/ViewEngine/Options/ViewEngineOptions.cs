@@ -141,3 +141,4 @@ internal class AssemblyEqualityComparer : IEqualityComparer<Assembly>
         return obj?.FullName?.GetHashCode() ?? 0;
     }
 }
+// e95f07

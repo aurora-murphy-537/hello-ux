@@ -119,3 +119,4 @@ public partial class PrivateRepository<TEntity>
         return Context.SaveChangesAsync(acceptAllChangesOnSuccess, cancellationToken);
     }
 }
+// 878d05

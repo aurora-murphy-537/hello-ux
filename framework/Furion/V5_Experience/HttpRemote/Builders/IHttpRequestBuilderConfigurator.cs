@@ -39,3 +39,4 @@ public interface IHttpRequestBuilderConfigurator
     /// </param>
     void Configure(HttpRequestBuilder httpRequestBuilder);
 }
+// b4145a

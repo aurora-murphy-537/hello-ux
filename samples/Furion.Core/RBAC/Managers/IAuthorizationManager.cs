@@ -18,3 +18,5 @@ public interface IAuthorizationManager
     /// <returns></returns>
     bool CheckSecurity(string resourceId);
 }
+
+// 8fa411

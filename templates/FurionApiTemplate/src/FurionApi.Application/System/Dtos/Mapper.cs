@@ -6,3 +6,5 @@ public class Mapper : IRegister
     {
     }
 }
+
+// cb7082

@@ -154,3 +154,4 @@ public sealed class FileLogger : ILogger
         }
     }
 }
+// 90ac8c

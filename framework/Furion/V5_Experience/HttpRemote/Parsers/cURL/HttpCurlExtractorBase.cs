@@ -82,3 +82,4 @@ public abstract class HttpCurlExtractorBase : IHttpCurlExtractor
     /// <param name="argument">携带的参数值</param>
     protected abstract void Extract(HttpRequestBuilder httpRequestBuilder, string flag, string? argument);
 }
+// dc15c8

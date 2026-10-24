@@ -50,3 +50,4 @@ public sealed class UseETagAttribute : Attribute
     /// </summary>
     public bool Enabled { get; set; }
 }
+// 96abbb

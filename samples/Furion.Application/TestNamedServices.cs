@@ -23,3 +23,4 @@ public class TestNamedServices : IDynamicApiController
         return service1.GetName() + "-" + service2.GetName() + "-" + service3.GetName() + "-" + service4.GetName();
     }
 }
+// 0538be

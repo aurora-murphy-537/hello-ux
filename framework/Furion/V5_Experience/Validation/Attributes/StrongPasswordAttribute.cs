@@ -39,3 +39,4 @@ public class StrongPasswordAttribute : PasswordAttribute
     /// </summary>
     public StrongPasswordAttribute() => Strong = true;
 }
+// 5bad62

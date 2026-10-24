@@ -107,3 +107,4 @@ public sealed class DatabaseLoggerOptions
     /// <remarks></remarks>
     public IFormatProvider? FormatProvider { get; set; } = CultureInfo.InvariantCulture;
 }
+// ae63b4

@@ -54,3 +54,4 @@ public sealed class EnumToNumberAttribute : Attribute
     /// <remarks>设置 false 则使用字符串类型</remarks>
     public bool Enabled { get; set; }
 }
+// ab4aa0

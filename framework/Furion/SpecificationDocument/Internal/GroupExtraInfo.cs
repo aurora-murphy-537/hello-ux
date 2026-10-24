@@ -45,3 +45,4 @@ public sealed class GroupExtraInfo
     /// </summary>
     public bool Visible { get; internal set; }
 }
+// 224412

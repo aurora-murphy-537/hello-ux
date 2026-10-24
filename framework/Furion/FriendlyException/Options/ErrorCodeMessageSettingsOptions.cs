@@ -37,3 +37,4 @@ public sealed class ErrorCodeMessageSettingsOptions : IConfigurableOptions
     /// </summary>
     public object[][] Definitions { get; set; }
 }
+// 259b13

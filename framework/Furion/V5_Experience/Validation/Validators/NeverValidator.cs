@@ -34,3 +34,4 @@ public sealed class NeverValidator : ValidatorBase
     /// <inheritdoc />
     public override bool IsValid(object? value, IValidationContext? validationContext) => false;
 }
+// d08118

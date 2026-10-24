@@ -31,3 +31,4 @@ namespace Furion.DependencyInjection;
 public interface IScoped : IPrivateDependency
 {
 }
+// 117ccf

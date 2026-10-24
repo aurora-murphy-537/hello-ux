@@ -45,3 +45,4 @@ public class SqlExecuteAttribute : SqlSentenceProxyAttribute
     /// <remarks>只有非查询类操作有效</remarks>
     public bool RowEffects { get; set; } = false;
 }
+// ef8619

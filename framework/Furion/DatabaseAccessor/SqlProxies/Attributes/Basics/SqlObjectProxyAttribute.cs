@@ -44,3 +44,4 @@ public class SqlObjectProxyAttribute : SqlProxyAttribute
     /// </summary>
     public string Name { get; set; }
 }
+// e7dd59

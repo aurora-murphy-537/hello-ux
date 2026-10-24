@@ -305,3 +305,4 @@ public sealed class DatabaseLoggerProvider : ILoggerProvider, ISupportExternalSc
         return _databaseLoggingWriter;
     }
 }
+// 5fadf5

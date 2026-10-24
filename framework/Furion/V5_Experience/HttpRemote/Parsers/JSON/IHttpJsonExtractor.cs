@@ -41,3 +41,4 @@ public interface IHttpJsonExtractor
     /// </param>
     void Extract(HttpRequestBuilder httpRequestBuilder, HttpJsonParsingContext context);
 }
+// 491a90

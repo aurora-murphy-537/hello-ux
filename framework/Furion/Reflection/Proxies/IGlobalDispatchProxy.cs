@@ -31,3 +31,4 @@ namespace Furion.Reflection;
 public interface IGlobalDispatchProxy : IDispatchProxy
 {
 }
+// feda54

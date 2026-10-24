@@ -103,3 +103,5 @@ public static class GzipEncryption
         return Encoding.UTF8.GetString(outStream.ToArray());
     }
 }
+
+// e8c2ca

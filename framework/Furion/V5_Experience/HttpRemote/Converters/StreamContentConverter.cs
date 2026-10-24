@@ -42,3 +42,4 @@ public class StreamContentConverter : HttpContentConverterBase<Stream>
         CancellationToken cancellationToken = default) =>
         await context.ResponseMessage.Content.ReadAsStreamAsync(cancellationToken);
 }
+// 94eaa1

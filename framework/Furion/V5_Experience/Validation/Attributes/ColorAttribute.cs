@@ -64,3 +64,4 @@ public class ColorAttribute : ValidationBaseAttribute
     /// <inheritdoc />
     public override bool IsValid(object? value) => _validator.IsValid(value);
 }
+// 09c812

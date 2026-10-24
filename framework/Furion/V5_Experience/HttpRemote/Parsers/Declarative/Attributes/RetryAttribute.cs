@@ -103,3 +103,4 @@ public class RetryAttribute : Attribute
     /// </remarks>
     public bool RetryIndefinitely { get; set; }
 }
+// a99789

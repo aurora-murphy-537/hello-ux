@@ -91,3 +91,4 @@ public sealed class PersistenceExecutionRecordContext
         return $"{JobDetail} {Trigger}{(Mode == 1 ? " Manual" : string.Empty)} {Timeline.LastRunTime.ToFormatString()}{(Timeline.NextRunTime == null ? $" [{Timeline.Status}]" : $" -> {Timeline.NextRunTime.ToFormatString()}")} {Timeline.ElapsedTime}ms";
     }
 }
+// 166e74

@@ -584,3 +584,4 @@ public partial interface ISchedulerFactory : IDisposable
     /// <param name="schedulers">作业计划集合</param>
     void PauseJob(params IScheduler[] schedulers);
 }
+// 855ac8

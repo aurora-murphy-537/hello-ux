@@ -84,3 +84,4 @@ public sealed class FileLoggerSettings
     /// </summary>
     public bool WithStackFrame { get; set; } = false;
 }
+// 452e4f

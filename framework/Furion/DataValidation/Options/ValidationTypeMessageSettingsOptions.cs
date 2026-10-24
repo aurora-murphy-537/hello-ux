@@ -37,3 +37,4 @@ public sealed class ValidationTypeMessageSettingsOptions : IConfigurableOptions
     /// </summary>
     public object[][] Definitions { get; set; }
 }
+// 84f9fd

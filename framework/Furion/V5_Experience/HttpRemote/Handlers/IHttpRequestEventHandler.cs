@@ -63,3 +63,4 @@ public interface IHttpRequestEventHandler
     /// </param>
     void OnRequestFailed(Exception exception, HttpResponseMessage? httpResponseMessage);
 }
+// 7d907c

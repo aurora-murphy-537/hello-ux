@@ -184,3 +184,4 @@ public sealed class DatabaseLogger : ILogger
         return stackTrace.GetFrames().Any(u => u.HasMethod() && typeof(IDatabaseLoggingWriter).IsAssignableFrom(u.GetMethod().DeclaringType));
     }
 }
+// f4c552

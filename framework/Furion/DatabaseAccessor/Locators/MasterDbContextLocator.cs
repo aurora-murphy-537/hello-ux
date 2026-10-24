@@ -31,3 +31,4 @@ namespace Furion.DatabaseAccessor;
 public sealed class MasterDbContextLocator : IDbContextLocator
 {
 }
+// d5e7f7

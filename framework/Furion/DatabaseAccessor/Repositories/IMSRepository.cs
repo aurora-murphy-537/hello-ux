@@ -245,3 +245,4 @@ public partial interface IMSRepository<TMasterDbContextLocator, TSlaveDbContextL
     IReadableRepository<TEntity, TSlaveDbContextLocator7> Slave7<TEntity>()
         where TEntity : class, IPrivateEntity, new();
 }
+// fcbcdb

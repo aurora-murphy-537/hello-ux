@@ -13,3 +13,4 @@ public sealed class Startup : AppStartup
         }, "Furion.Database.Migrations");   // 设置 CodeFirst 生成迁移文件项目名
     }
 }
+// 656150

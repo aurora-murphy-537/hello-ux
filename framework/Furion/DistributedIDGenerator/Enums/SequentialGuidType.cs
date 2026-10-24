@@ -50,3 +50,4 @@ public enum SequentialGuidType
     [Description("连续部分在末尾展示")]
     SequentialAtEnd
 }
+// 1d3662

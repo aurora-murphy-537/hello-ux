@@ -148,3 +148,4 @@ public sealed partial class WebSocketClient
     internal async Task OnBinaryReceivedAsync(WebSocketBinaryReceiveResult receiveResult) =>
         await BinaryReceived.TryInvokeAsync(this, receiveResult);
 }
+// b12e15

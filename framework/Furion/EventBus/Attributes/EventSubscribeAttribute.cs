@@ -94,3 +94,4 @@ public sealed class EventSubscribeAttribute : Attribute
     /// <remarks>数值越大的先执行</remarks>
     public int Order { get; set; } = 0;
 }
+// caafc1

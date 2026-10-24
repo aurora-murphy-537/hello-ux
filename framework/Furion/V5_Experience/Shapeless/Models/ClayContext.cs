@@ -48,3 +48,4 @@ public sealed class ClayContext
     /// </summary>
     public dynamic Current { get; }
 }
+// cd506a

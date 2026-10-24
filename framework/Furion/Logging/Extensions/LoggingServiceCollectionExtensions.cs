@@ -173,3 +173,4 @@ public static class LoggingServiceCollectionExtensions
         return services.AddLogging(builder => builder.AddDatabase<TDatabaseLoggingWriter>(configurationKey, configure));
     }
 }
+// 2bdb90

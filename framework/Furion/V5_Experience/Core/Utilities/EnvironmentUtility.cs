@@ -42,3 +42,4 @@ public static class EnvironmentUtility
             StringComparison.OrdinalIgnoreCase) ||
         Debugger.IsAttached;
 }
+// 2510c6

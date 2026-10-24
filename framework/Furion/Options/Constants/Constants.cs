@@ -36,3 +36,4 @@ internal static class Constants
     /// <remarks>主要用于匹配配置节点，自动去掉该后缀</remarks>
     internal const string OptionsTypeSuffix = "Options";
 }
+// 8a5ffc

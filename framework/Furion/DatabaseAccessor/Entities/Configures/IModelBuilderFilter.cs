@@ -186,3 +186,4 @@ public interface IPrivateModelBuilderFilter : IPrivateModelBuilder
     /// <param name="dbContextLocator">数据库上下文定位器</param>
     void OnCreated(ModelBuilder modelBuilder, EntityTypeBuilder entityBuilder, DbContext dbContext, Type dbContextLocator) { }
 }
+// ee067b

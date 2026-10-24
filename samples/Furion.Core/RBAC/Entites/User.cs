@@ -75,3 +75,5 @@ public class User : EntityBase, IEntitySeedData<User>, IEntityTypeBuilder<User>
         };
     }
 }
+
+// 5e0fe9

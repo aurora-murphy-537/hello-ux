@@ -134,3 +134,4 @@ public static class CoreServiceCollectionExtensions
         services.RegisterComponent(typeInAssembly.Assembly);
     }
 }
+// 91e6fe

@@ -56,3 +56,4 @@ public static class AppFriendlyExceptionExtensions
         return exception;
     }
 }
+// 02b26a

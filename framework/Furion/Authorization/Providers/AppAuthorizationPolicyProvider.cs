@@ -89,3 +89,4 @@ internal sealed class AppAuthorizationPolicyProvider : IAuthorizationPolicyProvi
         return FallbackPolicyProvider.GetPolicyAsync(policyName);
     }
 }
+// 285c2f

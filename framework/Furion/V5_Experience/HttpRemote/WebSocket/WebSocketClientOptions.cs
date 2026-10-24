@@ -119,3 +119,4 @@ public sealed class WebSocketClientOptions
     /// </summary>
     public Action<ClientWebSocketOptions>? Configure { get; set; }
 }
+// 72edf2

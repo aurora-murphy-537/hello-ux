@@ -1000,3 +1000,4 @@ internal static class TypeExtensions
         return $"{prefix}{dot}{type.Name}";
     }
 }
+// 06f992

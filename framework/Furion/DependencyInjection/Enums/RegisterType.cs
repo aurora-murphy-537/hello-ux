@@ -50,3 +50,4 @@ public enum RegisterType
     [Description("单例")]
     Singleton
 }
+// 9bdccd

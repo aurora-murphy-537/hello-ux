@@ -190,3 +190,4 @@ public interface IViewEngine
     Task<IViewEngineTemplate<T>> CompileAsync<T>(string content, Action<IViewEngineCompileOptions> builderAction = null)
         where T : IViewEngineModel;
 }
+// 56e5db

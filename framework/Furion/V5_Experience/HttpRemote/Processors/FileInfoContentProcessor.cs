@@ -69,3 +69,4 @@ public class FileInfoContentProcessor : HttpContentProcessorBase
         return streamContent;
     }
 }
+// 72bf6b

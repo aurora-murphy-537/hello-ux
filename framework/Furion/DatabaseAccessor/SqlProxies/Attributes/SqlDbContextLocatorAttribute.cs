@@ -45,3 +45,4 @@ public sealed class SqlDbContextLocatorAttribute : Attribute
     /// </summary>
     public Type Locator { get; set; } = typeof(MasterDbContextLocator);
 }
+// b971a2

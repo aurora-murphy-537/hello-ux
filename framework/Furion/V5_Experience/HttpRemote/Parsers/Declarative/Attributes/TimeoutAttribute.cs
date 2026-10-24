@@ -70,3 +70,4 @@ public sealed class TimeoutAttribute : Attribute
     /// </remarks>
     public double Timeout { get; set; }
 }
+// 1fa8fc

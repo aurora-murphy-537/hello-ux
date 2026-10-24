@@ -337,3 +337,4 @@ public sealed class RunOptions : IRunOptions
     /// </summary>
     internal string[] Args { get; set; }
 }
+// 319dc7

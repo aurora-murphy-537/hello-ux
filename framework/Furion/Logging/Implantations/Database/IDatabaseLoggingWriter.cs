@@ -38,3 +38,4 @@ public interface IDatabaseLoggingWriter
     /// <returns><see cref="Task"/></returns>
     Task WriteAsync(IReadOnlyList<LogMessage> batchLogMsgs, bool flush);
 }
+// eb6e24

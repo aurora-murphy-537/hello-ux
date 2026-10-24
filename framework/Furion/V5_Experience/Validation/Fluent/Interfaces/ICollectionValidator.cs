@@ -30,3 +30,4 @@ namespace Furion.Validation;
 /// </summary>
 /// <typeparam name="TElement">元素类型</typeparam>
 public interface ICollectionValidator<TElement> : IObjectValidator<IEnumerable<TElement>>, IMemberPathRepairable;
+// c6650e

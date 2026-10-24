@@ -50,3 +50,4 @@ public sealed class XmlBodyAttribute : BodyAttribute
     {
     }
 }
+// 2dba8c

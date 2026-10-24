@@ -58,3 +58,4 @@ public sealed partial class SqlExecutePart
     /// </summary>
     public IServiceProvider ContextScoped { get; private set; }
 }
+// da13fc

@@ -99,3 +99,4 @@ public sealed class PropertyAttribute : Attribute
     /// </remarks>
     public bool AsItem { get; set; } = true;
 }
+// 426741

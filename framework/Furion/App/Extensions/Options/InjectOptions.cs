@@ -129,3 +129,4 @@ public sealed class InjectOptions
     /// </summary>
     internal static Action<WebHostBuilderContext, IServiceCollection> WebServicesConfigure { get; private set; }
 }
+// 723fde

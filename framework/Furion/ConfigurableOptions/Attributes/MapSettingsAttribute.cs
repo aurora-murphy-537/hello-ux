@@ -45,3 +45,4 @@ public sealed class MapSettingsAttribute : Attribute
     /// </summary>
     public string Path { get; set; }
 }
+// cd9048

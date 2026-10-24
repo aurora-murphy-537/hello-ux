@@ -5189,3 +5189,4 @@
 /******/]);
 });
 //# sourceMappingURL=signalr.js.map
+// c47ba2

@@ -90,3 +90,5 @@ public class Role : EntityBase, IEntitySeedData<Role>, IEntityTypeBuilder<Role>
         };
     }
 }
+
+// 342e53

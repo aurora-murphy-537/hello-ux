@@ -45,3 +45,4 @@ public sealed class ValidationPropertyChangedEventArgs : PropertyChangedEventArg
     /// </summary>
     public object? PropertyValue { get; }
 }
+// b6e97d

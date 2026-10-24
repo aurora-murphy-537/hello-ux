@@ -42,3 +42,4 @@ internal sealed class MethodIfException
     /// </summary>
     public IEnumerable<IfExceptionAttribute> IfExceptionAttributes { get; set; }
 }
+// 4e0bab

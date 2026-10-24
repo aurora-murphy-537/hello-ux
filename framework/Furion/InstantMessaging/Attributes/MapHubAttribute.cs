@@ -45,3 +45,4 @@ public sealed class MapHubAttribute : Attribute
     /// </summary>
     public string Pattern { get; set; }
 }
+// 126268

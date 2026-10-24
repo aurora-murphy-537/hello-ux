@@ -32,3 +32,4 @@ namespace Furion.DataValidation;
 public sealed class ValidationMessageTypeAttribute : Attribute
 {
 }
+// 62bd7d

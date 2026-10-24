@@ -291,3 +291,4 @@ public interface IScheduler
     /// <param name="triggerId">作业触发器 Id</param>
     void Cancel(string triggerId = null);
 }
+// 43ebe2

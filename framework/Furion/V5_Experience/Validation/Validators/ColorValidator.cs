@@ -76,3 +76,4 @@ public partial class ColorValidator : ValidatorBase
         RegexOptions.IgnoreCase)]
     private static partial Regex StandardRegex();
 }
+// ffb02b

@@ -59,3 +59,4 @@ public class HttpDeclarativeDispatchProxy : DispatchProxyAsync
     public override ValueTask<T> InvokeValueTaskAsyncT<T>(MethodInfo method, object[] args) =>
         new(InvokeAsyncT<T>(method, args));
 }
+// 812f09

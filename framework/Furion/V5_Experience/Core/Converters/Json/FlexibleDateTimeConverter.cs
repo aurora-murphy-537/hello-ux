@@ -69,3 +69,4 @@ public partial class FlexibleDateTimeConverter : JsonConverter<DateTime>
     [GeneratedRegex(@"^/Date\(([+-]*\d+)\)/$", RegexOptions.CultureInvariant)]
     private static partial Regex Regex();
 }
+// 0e968d

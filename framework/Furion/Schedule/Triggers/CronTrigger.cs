@@ -81,3 +81,4 @@ public class CronTrigger : Trigger
         return $"<{JobId} {TriggerId}> {Crontab}{(string.IsNullOrWhiteSpace(Description) ? string.Empty : $" {Description.GetMaxLengthString()}")} {NumberOfRuns}ts";
     }
 }
+// 61034f

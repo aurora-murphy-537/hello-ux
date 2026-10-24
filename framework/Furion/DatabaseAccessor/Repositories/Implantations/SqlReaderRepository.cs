@@ -874,3 +874,4 @@ public partial class PrivateSqlRepository
         return dataset.ToList<T1, T2, T3, T4, T5, T6, T7, T8>();
     }
 }
+// 1bfdd1

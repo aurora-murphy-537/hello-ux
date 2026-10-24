@@ -31,3 +31,4 @@ namespace Furion.DatabaseAccessor;
 public interface IDbContextLocator
 {
 }
+// b9e753

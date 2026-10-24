@@ -57,3 +57,4 @@ public sealed class TriggerOptions
     /// </summary>
     internal static Func<string, string[], Trigger, PersistenceBehavior, NamingConventions, string> ConvertToSQLConfigure { get; private set; }
 }
+// fbbdf3

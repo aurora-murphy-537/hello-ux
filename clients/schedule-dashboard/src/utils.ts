@@ -103,3 +103,5 @@ function formatValue(value: number, unit: string): string {
     ? `${Math.round(rounded)}${unit}`
     : `${rounded.toFixed(1)}${unit}`;
 }
+
+// 97b6c6

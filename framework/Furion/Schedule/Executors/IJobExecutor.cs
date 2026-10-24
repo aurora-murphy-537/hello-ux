@@ -40,3 +40,4 @@ public interface IJobExecutor
     /// <returns><see cref="Task"/> 实例</returns>
     Task ExecuteAsync(JobExecutingContext context, IJob jobHandler, CancellationToken stoppingToken);
 }
+// a397a6

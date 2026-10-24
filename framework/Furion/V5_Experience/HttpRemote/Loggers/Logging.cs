@@ -29,3 +29,4 @@ namespace Furion.HttpRemote;
 ///     HTTP 远程服务日志类别
 /// </summary>
 public sealed class Logging;
+// d17eb3

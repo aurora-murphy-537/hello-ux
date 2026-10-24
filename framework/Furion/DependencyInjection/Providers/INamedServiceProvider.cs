@@ -64,3 +64,4 @@ public interface INamedServiceProvider<TService>
     TService GetRequiredService<ILifetime>(string serviceName)
         where ILifetime : IPrivateDependency;
 }
+// 007d7f

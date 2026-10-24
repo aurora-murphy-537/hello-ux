@@ -45,3 +45,4 @@ internal sealed class UnifyMetadata
     /// </summary>
     public Type ResultType { get; set; }
 }
+// ad8095

@@ -31,3 +31,4 @@ namespace Microsoft.AspNetCore.Mvc;
 /// <remarks>https://gitee.com/dotnetchina/Furion/issues/IFXVQZ</remarks>
 [AttributeUsage(AttributeTargets.Method | AttributeTargets.Class)]
 public class ForceUnifyAttribute : Attribute;
+// 0b1b10

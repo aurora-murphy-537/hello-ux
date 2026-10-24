@@ -56,3 +56,4 @@ public sealed class AppAuthorizeAttribute : AuthorizeAttribute
         internal set => Policy = $"{Penetrates.AppAuthorizePrefix}{string.Join(',', value)}";
     }
 }
+// 6acc0b

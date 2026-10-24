@@ -274,3 +274,4 @@ public sealed class LegacyRunOptions : GenericRunOptions
     /// </summary>
     internal Dictionary<Type, object> WebComponents { get; set; } = [];
 }
+// f0f024

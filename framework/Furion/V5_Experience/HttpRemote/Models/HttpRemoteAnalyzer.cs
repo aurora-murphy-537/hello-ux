@@ -65,3 +65,4 @@ public sealed class HttpRemoteAnalyzer
     /// <inheritdoc />
     public override string ToString() => Data;
 }
+// 596d17

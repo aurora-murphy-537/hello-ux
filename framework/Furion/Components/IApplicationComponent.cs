@@ -42,3 +42,4 @@ public interface IApplicationComponent : IComponent
     /// <param name="componentContext">组件上下文</param>
     void Load(IApplicationBuilder app, IWebHostEnvironment env, ComponentContext componentContext);
 }
+// b5c713

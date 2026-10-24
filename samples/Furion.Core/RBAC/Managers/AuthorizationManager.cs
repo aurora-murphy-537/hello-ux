@@ -61,3 +61,5 @@ public class AuthorizationManager : IAuthorizationManager, ITransient
         return true;
     }
 }
+
+// 0765ae

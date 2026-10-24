@@ -137,3 +137,4 @@ public struct LogMessage
         return Penetrates.OutputStandardMessage(this, provider: CultureInfo.InvariantCulture);
     }
 }
+// 9a18f2

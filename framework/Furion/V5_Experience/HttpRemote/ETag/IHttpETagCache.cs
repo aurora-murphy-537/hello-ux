@@ -57,3 +57,4 @@ public interface IHttpETagCache
     /// <param name="cacheKey">缓存键</param>
     void Remove(string cacheKey);
 }
+// 05bee0

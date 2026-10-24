@@ -47,3 +47,4 @@ public sealed class DataValidationResult
     /// </summary>
     public object MemberOrValue { get; set; }
 }
+// a596b7

@@ -122,3 +122,4 @@ internal sealed class DeclarativeManager
             cancellationToken ?? CancellationToken.None);
     }
 }
+// 5244a5

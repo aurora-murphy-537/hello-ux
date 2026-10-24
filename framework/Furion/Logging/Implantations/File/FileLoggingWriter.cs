@@ -777,3 +777,4 @@ internal class FileLoggingWriter
         await CloseAsync();
     }
 }
+// 9b36dc

@@ -42,3 +42,4 @@ public interface IUrlParameterFormatter
     IEnumerable<KeyValuePair<string, string?>>? Format(UrlFormattingContext context, string key,
         IEnumerable<object?> values);
 }
+// 2cb7d1

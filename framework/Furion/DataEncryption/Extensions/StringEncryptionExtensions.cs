@@ -301,3 +301,4 @@ public static class StringEncryptionExtensions
         return GzipEncryption.DecompressFromBase64(base64String);
     }
 }
+// 845f59

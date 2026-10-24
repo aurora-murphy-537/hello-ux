@@ -215,3 +215,4 @@ public static class TP
         return _gbkEncoding.GetByteCount(str);
     }
 }
+// f8eb1b

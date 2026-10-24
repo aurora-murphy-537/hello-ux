@@ -35,3 +35,4 @@ public interface IValidationMessageTypeProvider
     /// </summary>
     Type[] Definitions { get; }
 }
+// cec19c

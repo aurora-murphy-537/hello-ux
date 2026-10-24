@@ -39,3 +39,4 @@ public interface IGlobalExceptionHandler
     /// <returns></returns>
     Task OnExceptionAsync(ExceptionContext context);
 }
+// 2ac965

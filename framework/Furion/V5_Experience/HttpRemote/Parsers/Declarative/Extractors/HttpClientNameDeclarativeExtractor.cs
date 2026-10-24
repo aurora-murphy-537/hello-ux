@@ -43,3 +43,4 @@ internal sealed class HttpClientNameDeclarativeExtractor : IHttpDeclarativeExtra
         httpRequestBuilder.SetHttpClientName(httpClientNameAttribute.Name);
     }
 }
+// df0cbd

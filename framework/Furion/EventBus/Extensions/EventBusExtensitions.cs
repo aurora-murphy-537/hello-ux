@@ -57,3 +57,4 @@ public static class EventBusExtensitions
         return Enum.Parse(Assembly.Load(assemblyName).GetType(fullName), name) as Enum;
     }
 }
+// 9514f2

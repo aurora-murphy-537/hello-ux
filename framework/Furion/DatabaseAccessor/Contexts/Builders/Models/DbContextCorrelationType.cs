@@ -97,3 +97,4 @@ internal sealed class DbContextCorrelationType
     /// </summary>
     internal List<MethodInfo> DbFunctionMethods { get; set; }
 }
+// b3e130

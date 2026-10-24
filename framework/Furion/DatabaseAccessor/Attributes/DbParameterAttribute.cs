@@ -66,3 +66,4 @@ public sealed class DbParameterAttribute : Attribute
     /// <remarks>Nvarchar/varchar类型需指定</remarks>
     public int Size { get; set; }
 }
+// 09fdb1

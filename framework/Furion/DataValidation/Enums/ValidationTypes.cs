@@ -364,3 +364,4 @@ public enum ValidationTypes
     [Description("用户名"), ValidationItemMetadata(@"^[a-zA-Z][a-zA-Z0-9_]{3,18}[a-zA-Z0-9]$", "The value is not a username type.")]
     Username,
 }
+// 0fd035

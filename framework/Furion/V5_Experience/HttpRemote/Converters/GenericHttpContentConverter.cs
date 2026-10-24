@@ -31,3 +31,4 @@ namespace Furion.HttpRemote;
 /// <param name="GenericType">转换的目标类型的泛型类型</param>
 /// <param name="Factory">泛型 <see cref="IHttpContentConverter" /> 工厂委托</param>
 public sealed record GenericHttpContentConverter(Type GenericType, Func<Type[], IHttpContentConverter> Factory);
+// f20d05

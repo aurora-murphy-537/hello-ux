@@ -45,3 +45,4 @@ public enum ClusterStatus : uint
     /// </summary>
     Waiting = 2
 }
+// fc8c56

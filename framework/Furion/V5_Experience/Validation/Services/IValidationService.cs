@@ -113,3 +113,4 @@ public interface IValidationService
     /// <returns><see cref="ValidatorResult" />列表</returns>
     List<ValidatorResult> TryValidate(IEnumerable<object?> instances, string?[]? ruleSets = null);
 }
+// ebe37a

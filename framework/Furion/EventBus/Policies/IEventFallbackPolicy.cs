@@ -40,3 +40,4 @@ public interface IEventFallbackPolicy
     /// <returns></returns>
     Task CallbackAsync(EventHandlerExecutingContext context, Exception ex, CancellationToken cancellationToken);
 }
+// 147e16

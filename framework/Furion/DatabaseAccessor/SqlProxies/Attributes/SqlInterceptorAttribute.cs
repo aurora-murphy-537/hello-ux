@@ -53,3 +53,4 @@ public class SqlInterceptorAttribute : Attribute
     /// </summary>
     public string[] InterceptorIds { get; set; }
 }
+// d361aa

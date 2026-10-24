@@ -64,3 +64,4 @@ public sealed class SpecificationLoginInfo
     /// </summary>
     public string DefaultPassword { get; set; }
 }
+// 55e743

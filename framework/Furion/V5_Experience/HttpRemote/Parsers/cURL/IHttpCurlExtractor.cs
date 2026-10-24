@@ -60,3 +60,4 @@ public interface IOrderedHttpCurlExtractor : IHttpCurlExtractor
     /// <remarks>数值越小优先级越高。</remarks>
     int Order { get; }
 }
+// c2c620

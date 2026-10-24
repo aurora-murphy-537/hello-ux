@@ -311,3 +311,4 @@ public static class OptionsBuilderExtensions
                 !.MakeGenericType(inputTypes.Concat([outputType!]).ToArray());
     }
 }
+// 3ad260

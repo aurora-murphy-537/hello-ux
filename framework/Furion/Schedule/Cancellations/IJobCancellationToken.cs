@@ -47,3 +47,4 @@ public interface IJobCancellationToken
     /// <param name="outputLog">是否显示日志</param>
     void Cancel(string jobId, string triggerId = null, bool outputLog = true);
 }
+// a1b437

@@ -106,3 +106,4 @@ internal sealed class ValidationOptionsModelValidator : IModelValidator
     internal static ValidationOptionsMetadata? CreateMetadata(ValidationOptionsAttribute? attribute) =>
         attribute is null ? null : new ValidationOptionsMetadata(attribute.RuleSets);
 }
+// 73ded2

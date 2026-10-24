@@ -46,3 +46,4 @@ internal static class Constants
         internal const string ConfigurationFileParameter = @"\s+(?<parameter>\b\w+\b)\s*=\s*(?<value>\btrue\b|\bfalse\b)";
     }
 }
+// 5d58a3

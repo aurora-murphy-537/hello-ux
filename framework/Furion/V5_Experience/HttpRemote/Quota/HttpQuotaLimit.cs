@@ -59,3 +59,4 @@ public sealed class HttpQuotaLimit
     /// </summary>
     public int MaxCount { get; set; }
 }
+// ae0120

@@ -19,3 +19,4 @@ public class LoginInput
     [Required, MinLength(5)]
     public string Password { get; set; }
 }
+// e1c7c5

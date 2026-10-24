@@ -51,3 +51,4 @@ internal readonly struct ConsoleColors
     /// </summary>
     public ConsoleColor? Background { get; }
 }
+// 5813d6

@@ -45,3 +45,4 @@ public enum FileProviderTypes
     [Description("嵌入资源文件")]
     Embedded
 }
+// 047779

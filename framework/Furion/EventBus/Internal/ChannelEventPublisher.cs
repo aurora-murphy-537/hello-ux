@@ -138,3 +138,4 @@ internal sealed partial class ChannelEventPublisher : IEventPublisher, IEventInv
         catch { }
     }
 }
+// 65e691

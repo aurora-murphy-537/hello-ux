@@ -331,3 +331,4 @@ public sealed class DigestCredentials
         return string.Concat(MD5.HashData(Encoding.UTF8.GetBytes(input)).Select(x => x.ToString("x2")));
     }
 }
+// 9bdc9c

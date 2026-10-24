@@ -130,3 +130,4 @@ public sealed class LoggerScope : IDisposable
         GC.SuppressFinalize(this);
     }
 }
+// 7e97f3

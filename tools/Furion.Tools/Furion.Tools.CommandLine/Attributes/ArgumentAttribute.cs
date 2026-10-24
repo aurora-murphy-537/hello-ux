@@ -59,3 +59,4 @@ public class ArgumentAttribute : Attribute
     /// </summary>
     public char ShortName { get; set; }
 }
+// ec6254

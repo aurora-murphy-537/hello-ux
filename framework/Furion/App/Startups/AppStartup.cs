@@ -31,3 +31,4 @@ namespace Furion;
 public abstract class AppStartup
 {
 }
+// e62f99

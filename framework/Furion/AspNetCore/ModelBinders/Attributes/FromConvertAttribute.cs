@@ -53,3 +53,4 @@ public sealed class FromConvertAttribute : Attribute
     /// <remarks>框架内部不做任何处理</remarks>
     public bool Customize { get; set; } = false;
 }
+// 43806e

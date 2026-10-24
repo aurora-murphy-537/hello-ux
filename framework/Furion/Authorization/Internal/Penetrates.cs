@@ -35,3 +35,4 @@ internal static class Penetrates
     /// </summary>
     internal const string AppAuthorizePrefix = "<Furion.Authorization.AppAuthorizeRequirement>";
 }
+// 0e472b

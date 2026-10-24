@@ -43,3 +43,4 @@ internal sealed class UseETagDeclarativeExtractor : IHttpDeclarativeExtractor
         httpRequestBuilder.UseETag(useETagAttribute.Enabled);
     }
 }
+// 1b7cf1

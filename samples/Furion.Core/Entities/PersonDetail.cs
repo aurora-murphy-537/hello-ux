@@ -24,3 +24,5 @@ public class PersonDetail : EntityBase
     /// </summary>
     public Person Person { get; set; }
 }
+
+// ebbb3f

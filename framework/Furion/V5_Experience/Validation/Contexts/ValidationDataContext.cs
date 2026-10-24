@@ -72,3 +72,4 @@ internal sealed class ValidationDataContext : IValidationDataContext
     /// <inheritdoc />
     public bool HasValidationOptions() => ContainsKey(Constants.ValidationOptionsKey);
 }
+// d79e69

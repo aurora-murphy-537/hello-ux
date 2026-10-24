@@ -192,3 +192,4 @@ public abstract class PrivateEntity<TKey> : PrivateEntityBase<TKey>
     /// </summary>
     public virtual DateTimeOffset? UpdatedTime { get; set; }
 }
+// 8cf4f9

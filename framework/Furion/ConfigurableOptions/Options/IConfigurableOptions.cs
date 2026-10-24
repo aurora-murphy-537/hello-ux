@@ -74,3 +74,4 @@ public partial interface IConfigurableOptionsListener<TOptions> : IConfigurableO
     /// <param name="configuration"></param>
     void OnListener(TOptions options, IConfiguration configuration);
 }
+// 89b1b6

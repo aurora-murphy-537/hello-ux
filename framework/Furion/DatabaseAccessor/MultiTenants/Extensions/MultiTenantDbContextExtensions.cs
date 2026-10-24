@@ -60,3 +60,4 @@ public static class MultiTenantDbContextExtensions
         distributedCache.Remove(tenantCachedKey);
     }
 }
+// 9699ac

@@ -217,3 +217,4 @@ public interface IPrivateInsertableRepository<TEntity> : IPrivateRootRepository
     /// <returns>Task</returns>
     Task<int> InsertNowAsync(IEnumerable<TEntity> entities, bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default);
 }
+// bdfe5f

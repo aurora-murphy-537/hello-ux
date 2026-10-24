@@ -45,3 +45,4 @@ public class GreaterThanOrEqualToValidator : ComparisonValidator
     protected override bool IsValid(IComparable value, IValidationContext? validationContext) =>
         value.CompareTo(CompareValue) >= 0;
 }
+// 7c1a5f

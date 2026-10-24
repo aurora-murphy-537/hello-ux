@@ -75,3 +75,4 @@ public class UrlStrictAttribute : ValidationBaseAttribute
             ? nameof(ValidationMessages.UrlValidator_ValidationError_SupportsFtp)
             : nameof(ValidationMessages.UrlValidator_ValidationError);
 }
+// 63e44b

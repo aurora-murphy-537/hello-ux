@@ -102,3 +102,4 @@ internal sealed class CurlUrlExtractor : IOrderedHttpCurlExtractor
                 token.StartsWith(uri.Scheme + "://", StringComparison.OrdinalIgnoreCase));
     }
 }
+// 3f2a3b

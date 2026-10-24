@@ -53,3 +53,4 @@ public sealed class UnifyProviderAttribute : Attribute
     /// </summary>
     public string Name { get; set; }
 }
+// c48a04

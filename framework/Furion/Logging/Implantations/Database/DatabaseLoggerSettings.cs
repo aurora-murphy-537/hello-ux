@@ -68,3 +68,4 @@ public sealed class DatabaseLoggerSettings
     /// </summary>
     public bool WithStackFrame { get; set; } = false;
 }
+// 8e432f

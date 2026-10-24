@@ -163,3 +163,4 @@ internal static class MethodInfoExtensions
         return $"{returnType} {methodName}{genericPart}({string.Join(", ", parameters)})";
     }
 }
+// 366e02

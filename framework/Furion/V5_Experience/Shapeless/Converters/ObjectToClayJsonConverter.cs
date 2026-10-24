@@ -84,3 +84,4 @@ public sealed class ObjectToClayJsonConverter : JsonConverter<object>
         JsonSerializer.Serialize(writer, value, value.GetType(), options);
     }
 }
+// 371fa9

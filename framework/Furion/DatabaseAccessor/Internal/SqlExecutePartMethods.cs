@@ -2179,3 +2179,4 @@ public sealed partial class SqlExecutePart
         return repository;
     }
 }
+// 8b2964

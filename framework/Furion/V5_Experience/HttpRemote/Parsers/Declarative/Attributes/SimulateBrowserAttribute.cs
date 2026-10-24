@@ -36,3 +36,4 @@ public sealed class SimulateBrowserAttribute : Attribute
     /// </summary>
     public bool IsMobile { get; set; }
 }
+// f4f6c0

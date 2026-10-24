@@ -85,3 +85,4 @@ public class StringNotContainsAttribute : ValidationBaseAttribute
     public override string FormatErrorMessage(string name) =>
         string.Format(CultureInfo.CurrentCulture, ErrorMessageString, name, SearchValue);
 }
+// 8cd205

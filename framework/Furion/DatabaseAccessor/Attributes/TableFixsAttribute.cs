@@ -63,3 +63,4 @@ public class TableFixsAttribute : Attribute
     /// <remarks>后缀不能包含 . 和特殊符号，可使用下划线或短杆线</remarks>
     public string Suffix { get; set; }
 }
+// ae8cb1

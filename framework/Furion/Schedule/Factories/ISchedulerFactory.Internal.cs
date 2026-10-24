@@ -93,3 +93,4 @@ public partial interface ISchedulerFactory
     /// <returns><see cref="IJob"/></returns>
     IJob CreateJob(IServiceProvider serviceProvider, JobFactoryContext context);
 }
+// 0a1d5c

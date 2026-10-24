@@ -95,3 +95,4 @@ public abstract class HttpRemoteLoggerBase : IHttpRemoteLogger
     /// <inheritdoc />
     public abstract void Log(LogLevel logLevel, Exception? exception, string? message, params object?[] args);
 }
+// 1b8527

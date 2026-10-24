@@ -159,3 +159,4 @@ public abstract class TriggerAttribute : Attribute
     /// </summary>
     internal object[] RuntimeTriggerArgs { get; set; }
 }
+// 49e5be

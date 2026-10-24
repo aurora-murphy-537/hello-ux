@@ -120,3 +120,4 @@ public partial interface IPrivateWritableRepository<TEntity>
     /// <returns></returns>
     Task<int> SaveNowAsync(bool acceptAllChangesOnSuccess, CancellationToken cancellationToken = default);
 }
+// 0a07cf

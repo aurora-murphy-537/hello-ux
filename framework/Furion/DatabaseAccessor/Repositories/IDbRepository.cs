@@ -60,3 +60,4 @@ public partial interface IDbRepository<TDbContextLocator>
     /// <returns></returns>
     TService GetRequiredService<TService>();
 }
+// bb9d2f

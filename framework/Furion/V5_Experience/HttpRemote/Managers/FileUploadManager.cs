@@ -290,3 +290,4 @@ internal sealed class FileUploadManager
         await _httpFileUploadBuilder.OnProgressChanged.TryInvokeAsync(fileTransferProgress);
     }
 }
+// cb49df

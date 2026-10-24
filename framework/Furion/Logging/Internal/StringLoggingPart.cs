@@ -81,3 +81,4 @@ public sealed partial class StringLoggingPart
     /// </summary>
     public LogContext LogContext { get; private set; }
 }
+// d2afef

@@ -95,3 +95,4 @@ public class SequentialGuidIDGenerator : IDistributedIDGenerator
         return guid;
     }
 }
+// 6d02a7

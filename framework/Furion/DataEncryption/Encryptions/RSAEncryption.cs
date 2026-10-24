@@ -158,3 +158,4 @@ public static class RSAEncryption
             throw new ArgumentException("The keySize must be between 2048 and 16384 in size and must be divisible by 8.", nameof(keySize));
     }
 }
+// e6abd6

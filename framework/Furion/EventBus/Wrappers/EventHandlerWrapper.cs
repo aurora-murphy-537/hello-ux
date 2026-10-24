@@ -74,3 +74,4 @@ internal sealed class EventHandlerWrapper
     /// <remarks>数值越大的先执行</remarks>
     internal int Order { get; set; } = 0;
 }
+// 8ecd03

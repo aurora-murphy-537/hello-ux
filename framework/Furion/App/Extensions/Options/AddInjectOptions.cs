@@ -76,3 +76,4 @@ public sealed class AddInjectOptions
     /// </summary>
     internal static Action<FriendlyExceptionOptions> FriendlyExceptionConfigure { get; private set; }
 }
+// af0702

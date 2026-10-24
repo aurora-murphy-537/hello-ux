@@ -42,3 +42,4 @@ public interface IHttpAccessTokenConfigurator
     /// </param>
     void Configure(HttpRequestBuilder httpRequestBuilder, HttpAccessToken httpAccessToken);
 }
+// 419eb8

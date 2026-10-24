@@ -42,3 +42,4 @@ public sealed class TraceIdentifierAttribute : Attribute
     /// </summary>
     public string Identifier { get; set; }
 }
+// 0ab73e

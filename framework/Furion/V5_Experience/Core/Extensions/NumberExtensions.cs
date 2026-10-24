@@ -129,3 +129,4 @@ public static class NumberExtensions
         return isInteger ? $"{rounded:F0}{unit}" : $"{rounded:F1}{unit}";
     }
 }
+// bd8d3f

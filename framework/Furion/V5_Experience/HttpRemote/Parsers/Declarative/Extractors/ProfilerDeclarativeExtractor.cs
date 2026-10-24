@@ -43,3 +43,4 @@ internal sealed class ProfilerDeclarativeExtractor : IHttpDeclarativeExtractor
         httpRequestBuilder.Profiler(profilerAttribute.Enabled);
     }
 }
+// 8a6da2

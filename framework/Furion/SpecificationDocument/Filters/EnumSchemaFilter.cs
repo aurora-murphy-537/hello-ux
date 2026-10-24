@@ -151,3 +151,4 @@ public partial class EnumSchemaFilter : ISchemaFilter
     [GeneratedRegex(CHINESE_PATTERN)]
     private static partial Regex ChineseRegex();
 }
+// 1ed8cf

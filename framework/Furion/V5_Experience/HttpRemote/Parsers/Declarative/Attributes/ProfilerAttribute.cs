@@ -50,3 +50,4 @@ public sealed class ProfilerAttribute : Attribute
     /// </summary>
     public bool Enabled { get; set; }
 }
+// b05858

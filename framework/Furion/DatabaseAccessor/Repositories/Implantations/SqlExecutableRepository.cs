@@ -1624,3 +1624,4 @@ public partial class PrivateSqlRepository
         return dataTable.ToList<T>();
     }
 }
+// 2b3d02

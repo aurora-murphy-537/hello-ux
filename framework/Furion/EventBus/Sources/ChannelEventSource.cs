@@ -98,3 +98,4 @@ public sealed class ChannelEventSource : IEventSource
     /// </summary>
     public bool ConsumeOnce { get; set; }
 }
+// 41aff7

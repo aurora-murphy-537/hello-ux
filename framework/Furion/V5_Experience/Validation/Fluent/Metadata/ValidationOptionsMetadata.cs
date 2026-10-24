@@ -42,3 +42,4 @@ public sealed class ValidationOptionsMetadata
     /// </summary>
     public string?[]? RuleSets { get; }
 }
+// 3b4806

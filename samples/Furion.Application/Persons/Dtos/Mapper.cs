@@ -15,3 +15,4 @@ public class Mapper : IRegister
             .Map(dest => dest.UpdatedTime, src => DateTimeOffset.Now);
     }
 }
+// 403ea5

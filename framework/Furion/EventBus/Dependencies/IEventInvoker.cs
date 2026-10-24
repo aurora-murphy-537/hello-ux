@@ -36,3 +36,5 @@ public interface IEventInvoker
     /// <param name="args">事件参数</param>
     void InvokeEvents(EventHandlerEventArgs args);
 }
+
+// 7d14ea

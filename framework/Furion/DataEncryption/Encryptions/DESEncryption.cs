@@ -97,3 +97,4 @@ public class DESEncryption
         return Encoding.Default.GetString(ms.ToArray());
     }
 }
+// 3288ee

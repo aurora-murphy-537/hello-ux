@@ -128,3 +128,4 @@ public class PeriodTrigger : Trigger
         return isInteger ? $"{rounded:F0}{unit}" : $"{rounded:F1}{unit}";
     }
 }
+// d1779a

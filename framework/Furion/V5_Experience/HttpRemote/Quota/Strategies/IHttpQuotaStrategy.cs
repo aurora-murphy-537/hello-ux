@@ -49,3 +49,4 @@ public interface IHttpQuotaStrategy
     /// </returns>
     bool TryAcquire(HttpQuotaCounter quotaCounter, int maxCount, out int current);
 }
+// e0e04d

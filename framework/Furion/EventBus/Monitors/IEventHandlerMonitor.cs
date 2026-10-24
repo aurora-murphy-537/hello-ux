@@ -46,3 +46,4 @@ public interface IEventHandlerMonitor
     /// <returns><see cref="Task"/> 实例</returns>
     Task OnExecutedAsync(EventHandlerExecutedContext context, CancellationToken cancellationToken);
 }
+// 2e677f

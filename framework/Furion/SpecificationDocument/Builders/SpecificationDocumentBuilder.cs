@@ -1040,3 +1040,4 @@ public static class SpecificationDocumentBuilder
         };
     }
 }
+// 6370b6

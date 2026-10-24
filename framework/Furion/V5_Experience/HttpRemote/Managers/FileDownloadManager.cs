@@ -1034,3 +1034,4 @@ internal sealed class FileDownloadManager
         File.Move(tempDestinationPath, destinationPath, true);
     }
 }
+// 1e03f2

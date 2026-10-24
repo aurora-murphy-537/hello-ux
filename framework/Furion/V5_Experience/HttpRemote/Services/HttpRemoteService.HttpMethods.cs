@@ -1109,3 +1109,4 @@ internal sealed partial class HttpRemoteService
         Action<HttpRequestBuilder>? configure = null, CancellationToken cancellationToken = default) =>
         QueryAsAsync<byte[]>(requestUri, completionOption, configure, cancellationToken);
 }
+// 77dd22

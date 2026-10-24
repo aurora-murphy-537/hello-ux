@@ -34,3 +34,4 @@ public sealed class TestPipelineStartup : ITestPipelineStartup
     /// <inheritdoc />
     public async ValueTask StopAsync() => await _host.StopAsync();
 }
+// 7efb57

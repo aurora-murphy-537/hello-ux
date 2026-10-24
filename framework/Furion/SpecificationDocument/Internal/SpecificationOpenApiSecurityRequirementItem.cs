@@ -50,3 +50,4 @@ public sealed class SpecificationOpenApiSecurityRequirementItem
     /// </summary>
     public List<string> Accesses { get; set; }
 }
+// 9d7e07

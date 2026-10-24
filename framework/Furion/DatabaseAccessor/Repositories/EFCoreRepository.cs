@@ -862,3 +862,4 @@ public partial class PrivateRepository<TEntity> : PrivateSqlRepository, IPrivate
         }
     }
 }
+// b227f4

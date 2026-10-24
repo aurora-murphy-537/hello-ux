@@ -42,3 +42,4 @@ public class AuthHandler : AppAuthorizeHandler
         return authorizationManager.CheckSecurity(securityDefineAttribute.ResourceId);
     }
 }
+// 0bbf3a

@@ -38,3 +38,4 @@ public abstract class ChannelHandler<TMessage>
     /// <returns></returns>
     public abstract Task InvokeAsync(TMessage message);
 }
+// cfe838

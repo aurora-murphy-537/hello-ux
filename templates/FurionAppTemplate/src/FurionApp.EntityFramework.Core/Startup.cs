@@ -13,3 +13,5 @@ public class Startup : AppStartup
         }, "FurionApp.Database.Migrations");
     }
 }
+
+// 1557a3

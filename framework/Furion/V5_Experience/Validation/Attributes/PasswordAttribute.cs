@@ -80,3 +80,4 @@ public class PasswordAttribute : ValidationBaseAttribute
             ? nameof(ValidationMessages.PasswordValidator_ValidationError_Strong)
             : nameof(ValidationMessages.PasswordValidator_ValidationError);
 }
+// 681650

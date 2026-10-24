@@ -99,3 +99,4 @@ public class BodyAttribute : Attribute
     /// <remarks>默认值为：<c>false</c>。</remarks>
     public bool DisposeResourcesOnRequestCompletion { get; set; }
 }
+// f74b1f

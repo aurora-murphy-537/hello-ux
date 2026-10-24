@@ -50,3 +50,4 @@ public sealed class ClayJsonConverter : JsonConverter<Clay>
     public override void Write(Utf8JsonWriter writer, Clay value, JsonSerializerOptions options) =>
         writer.WriteRawValue(value.ToJsonString(options));
 }
+// c07791

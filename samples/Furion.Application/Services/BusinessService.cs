@@ -14,3 +14,4 @@ public class OtherBusinessService : IBusinessService, ITransient
         return "我是：" + nameof(OtherBusinessService);
     }
 }
+// 92eae2

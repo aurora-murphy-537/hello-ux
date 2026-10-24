@@ -56,3 +56,4 @@ public interface IJobClusterServer
     /// <param name="context">作业集群服务上下文</param>
     void Crash(JobClusterContext context);
 }
+// 770ddf

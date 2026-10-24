@@ -77,3 +77,4 @@ public sealed class JobDetailOptions
     /// </summary>
     internal static Func<string, string[], JobDetail, PersistenceBehavior, NamingConventions, string> ConvertToSQLConfigure { get; private set; }
 }
+// 63221b

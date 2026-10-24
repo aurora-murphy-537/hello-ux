@@ -40,3 +40,4 @@ public sealed class SpecificationAuth
     /// </summary>
     public string Password { get; set; }
 }
+// cdd4dc

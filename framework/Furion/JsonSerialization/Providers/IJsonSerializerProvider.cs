@@ -62,3 +62,4 @@ public interface IJsonSerializerProvider
     /// <returns></returns>
     object GetSerializerOptions();
 }
+// 446c79

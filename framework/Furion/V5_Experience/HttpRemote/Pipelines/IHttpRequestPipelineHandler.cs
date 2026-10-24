@@ -43,3 +43,4 @@ public interface IHttpRequestPipelineHandler
     /// </returns>
     Task<HttpResponseMessage?> HandleAsync(HttpRequestPipelineContext context, Func<Task<HttpResponseMessage?>> next);
 }
+// 8e7a39

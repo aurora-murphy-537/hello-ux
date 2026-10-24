@@ -50,3 +50,4 @@ public enum DbContextMode
     [Description("动态模型数据库上下文")]
     Dynamic
 }
+// 0bf82b

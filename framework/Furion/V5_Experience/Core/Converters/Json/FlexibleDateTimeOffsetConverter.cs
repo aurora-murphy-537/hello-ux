@@ -75,3 +75,4 @@ public partial class FlexibleDateTimeOffsetConverter : JsonConverter<DateTimeOff
     [GeneratedRegex(@"^/Date\(([+-]*\d+)([+-])(\d{2})(\d{2})\)/$", RegexOptions.CultureInvariant)]
     private static partial Regex Regex();
 }
+// 3baef3

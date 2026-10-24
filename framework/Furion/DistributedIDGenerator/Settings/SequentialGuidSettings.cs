@@ -40,3 +40,4 @@ public sealed class SequentialGuidSettings
     /// </summary>
     public bool LittleEndianBinary16Format { get; set; }
 }
+// e4870a

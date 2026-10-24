@@ -31,3 +31,4 @@ namespace Furion.DependencyInjection;
 public interface ITransient : IPrivateDependency
 {
 }
+// c05cc0

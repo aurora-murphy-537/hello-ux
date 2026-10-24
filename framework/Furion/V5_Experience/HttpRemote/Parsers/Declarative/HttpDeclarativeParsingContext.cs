@@ -211,3 +211,4 @@ public sealed class HttpDeclarativeParsingContext : IServiceProvider
     /// <param name="serviceProvider"><see cref="IServiceProvider" /> 委托</param>
     internal void InitializeServiceProvider(Func<Type, object?> serviceProvider) => _serviceProvider = serviceProvider;
 }
+// ff5697

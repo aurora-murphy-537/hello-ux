@@ -62,3 +62,4 @@ public static class ObjectMapperServiceCollectionExtensions
         return services;
     }
 }
+// 767a47

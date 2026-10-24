@@ -60,3 +60,4 @@ public interface IHttpFileTransferEventHandler
     /// </param>
     void OnTransferFailed(Exception exception);
 }
+// ccea9e

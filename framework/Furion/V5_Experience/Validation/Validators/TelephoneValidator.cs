@@ -56,3 +56,4 @@ public partial class TelephoneValidator : ValidatorBase
     [GeneratedRegex(@"^(?:(?:\d{3}-)?\d{8}|(?:\d{4}-)?\d{7,8})(?:-\d+)?$")]
     private static partial Regex Regex();
 }
+// e17ec5

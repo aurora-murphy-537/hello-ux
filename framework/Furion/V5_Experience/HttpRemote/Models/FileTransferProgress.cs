@@ -696,3 +696,4 @@ public sealed partial class FileTransferProgress
     [GeneratedRegex(@"\x1b\[[0-9;]*[a-zA-Z]|\x1b\].*?\x07")]
     private static partial Regex AnsiRegex();
 }
+// 45d522

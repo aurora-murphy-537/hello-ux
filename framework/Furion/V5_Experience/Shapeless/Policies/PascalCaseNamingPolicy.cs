@@ -94,3 +94,4 @@ public sealed partial class PascalCaseNamingPolicy : JsonNamingPolicy
         @"(?<=[A-Z])(?=[A-Z][a-z])|(?<=[^A-Z])(?=[A-Z])|(?<=[A-Za-z])(?=[^A-Za-z])|(?<=\d)(?=\D)|(?<=\D)(?=\d)")]
     private static partial Regex WordBoundaryRegex();
 }
+// d0dbd2

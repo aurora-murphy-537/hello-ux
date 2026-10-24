@@ -53,3 +53,4 @@ internal sealed class DailyQuotaStrategy : IHttpQuotaStrategy
         return current <= maxCount;
     }
 }
+// d40cbe

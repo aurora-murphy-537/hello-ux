@@ -77,3 +77,4 @@ public static class LogMessageExtensions
         }, writeIndented);
     }
 }
+// 377c52

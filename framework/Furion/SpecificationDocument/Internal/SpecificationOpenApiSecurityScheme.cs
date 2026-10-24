@@ -49,3 +49,4 @@ public sealed class SpecificationOpenApiSecurityScheme : OpenApiSecurityScheme
     /// </summary>
     public SpecificationOpenApiSecurityRequirementItem Requirement { get; set; }
 }
+// e191c4

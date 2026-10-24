@@ -36,3 +36,4 @@ public interface IMultiTenantOnTable : IPrivateMultiTenant
     /// <returns></returns>
     object GetTenantId();
 }
+// 79dfaf

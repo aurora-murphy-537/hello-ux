@@ -119,3 +119,4 @@ public interface IEventPublisher
     /// <returns><see cref="Task"/> 实例</returns>
     Task PublishDelayAsync(Enum eventId, TimeSpan delay, object payload = default, CancellationToken cancellationToken = default);
 }
+// 3eef1d

@@ -85,3 +85,4 @@ internal sealed partial class Scheduler : IScheduler
     /// </summary>
     internal ILogger JobLogger { get; set; }
 }
+// fe96ca

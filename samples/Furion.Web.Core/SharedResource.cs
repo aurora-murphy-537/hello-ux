@@ -4,3 +4,4 @@ public class SharedResource
 {
     public string 实时通信 { get; set; }
 }
+// b13e44

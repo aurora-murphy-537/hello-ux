@@ -540,3 +540,4 @@ public sealed class FileTypeMapper
         return index < 0 ? null : path[index..];
     }
 }
+// 484498

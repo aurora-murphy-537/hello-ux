@@ -44,3 +44,4 @@ public interface ISqlDispatchProxy
     /// </summary>
     public void ResetIt() { }
 }
+// a2440b

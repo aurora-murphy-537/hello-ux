@@ -58,3 +58,4 @@ public class JobServices : IDynamicApiController
         _schedulerFactory.TryCancelJob(jobId, out _, triggerId);
     }
 }
+// d6be7e

@@ -35,3 +35,4 @@ public sealed class FriendlyExceptionOptions
     /// </summary>
     public bool GlobalEnabled { get; set; } = true;
 }
+// d1078a

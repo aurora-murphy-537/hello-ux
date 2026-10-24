@@ -322,3 +322,4 @@ public static class Policy<TResult>
     /// </returns>
     public static LockPolicy<TResult> Lock() => new();
 }
+// 07afd7

@@ -33,3 +33,4 @@ namespace Furion.DependencyInjection;
 public class SuppressSnifferAttribute : Attribute
 {
 }
+// 15665b

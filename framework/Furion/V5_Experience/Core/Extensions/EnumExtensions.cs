@@ -72,3 +72,4 @@ internal static class EnumExtensions
             ?.Description ?? enumName;
     }
 }
+// e368ff

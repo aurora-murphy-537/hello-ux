@@ -185,3 +185,4 @@ public abstract class ComparisonValidator : ValidatorBase
         return value => value.GetType() == operandType ? value : typeConverter.ConvertFrom(value)!;
     }
 }
+// 70df6b

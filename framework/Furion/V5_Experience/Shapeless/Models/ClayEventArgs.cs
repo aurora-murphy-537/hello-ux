@@ -51,3 +51,4 @@ public sealed class ClayEventArgs : EventArgs
     /// </summary>
     public bool IsFound { get; }
 }
+// ed65ed

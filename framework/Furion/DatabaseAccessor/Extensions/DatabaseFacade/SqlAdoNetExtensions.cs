@@ -496,3 +496,4 @@ public static class SqlAdoNetExtensions
         }
     }
 }
+// 393aa6

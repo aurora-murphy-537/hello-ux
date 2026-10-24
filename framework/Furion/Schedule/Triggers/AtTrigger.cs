@@ -74,3 +74,4 @@ public class AtTrigger : Trigger
         return $"<{JobId} {TriggerId}> {TriggerTime:yyyy-MM-dd HH:mm:ss} {(string.IsNullOrWhiteSpace(Description) ? string.Empty : $" {Description.GetMaxLengthString()}")} {NumberOfRuns}ts";
     }
 }
+// 0f2805

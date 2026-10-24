@@ -183,3 +183,4 @@ public class KSortSignature : IEquatable<KSortSignature>
         return !(lhs == rhs);
     }
 }
+// a2d31c

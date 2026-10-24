@@ -143,3 +143,4 @@ public sealed class HttpRemoteOptions
     /// </remarks>
     internal IReadOnlyList<Type> PipelineHandlerTypes { get; set; } = [];
 }
+// 4042b2

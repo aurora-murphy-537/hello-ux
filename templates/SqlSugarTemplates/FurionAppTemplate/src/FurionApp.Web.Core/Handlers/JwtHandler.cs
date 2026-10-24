@@ -14,3 +14,5 @@ public class JwtHandler : AppAuthorizeHandler
         return Task.FromResult(true);
     }
 }
+
+// 378e30

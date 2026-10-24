@@ -65,3 +65,4 @@ public sealed class FileTransferResult
     /// </summary>
     public HttpStatusCode? StatusCode { get; internal set; }
 }
+// 413bca

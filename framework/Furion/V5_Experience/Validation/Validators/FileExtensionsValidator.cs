@@ -83,3 +83,4 @@ public class FileExtensionsValidator : ValidatorBase
     internal bool ValidateExtension(string fileName) =>
         ExtensionsParsed.Contains(Path.GetExtension(fileName).ToLowerInvariant());
 }
+// 8cbbef

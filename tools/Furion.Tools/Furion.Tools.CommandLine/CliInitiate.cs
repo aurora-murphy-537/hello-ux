@@ -163,3 +163,4 @@ public static partial class Cli
         return Assembly.GetEntryAssembly().DefinedTypes.First(u => u.Name == "Program");
     }
 }
+// 1d41fb

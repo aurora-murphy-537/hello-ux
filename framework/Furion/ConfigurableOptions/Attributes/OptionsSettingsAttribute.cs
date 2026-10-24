@@ -77,3 +77,4 @@ public sealed class OptionsSettingsAttribute : Attribute
     /// </summary>
     public bool PostConfigureAll { get; set; }
 }
+// e39f56

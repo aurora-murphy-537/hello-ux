@@ -46,3 +46,4 @@ public interface ISingleFilePublish
     /// <returns></returns>
     string[] IncludeAssemblyNames();
 }
+// 5c4720

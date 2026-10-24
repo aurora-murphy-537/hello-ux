@@ -84,3 +84,4 @@ public class InjectionAttribute : Attribute
     /// </summary>
     public Type Proxy { get; set; }
 }
+// 0351b0

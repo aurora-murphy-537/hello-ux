@@ -43,3 +43,4 @@ internal sealed class SuppressExceptionsDeclarativeExtractor : IHttpDeclarativeE
         httpRequestBuilder.SuppressExceptions(suppressExceptionsAttribute.Types);
     }
 }
+// 348a56

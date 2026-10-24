@@ -59,3 +59,4 @@ public sealed class EventHandlerExecutedContext : EventHandlerContext
     /// </summary>
     public InvalidOperationException Exception { get; internal set; }
 }
+// e3475f

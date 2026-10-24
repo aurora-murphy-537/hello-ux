@@ -702,3 +702,4 @@ public interface IPrivateReadableRepository<TEntity> : IPrivateRootRepository
     /// <returns>IQueryable{TEntity}</returns>
     IQueryable<TEntity> FromSqlInterpolated(FormattableString sql);
 }
+// 0f0d94

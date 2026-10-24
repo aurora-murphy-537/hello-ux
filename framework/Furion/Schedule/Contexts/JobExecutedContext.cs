@@ -57,3 +57,4 @@ public sealed class JobExecutedContext : JobExecutionContext
     /// </summary>
     public Exception Exception { get; internal set; }
 }
+// 216f77

@@ -39,3 +39,4 @@ public class AppInfoOptions : IConfigurableOptions
     [MapSettings("Company_Name")]
     public string Company { get; set; }
 }
+// 386f53

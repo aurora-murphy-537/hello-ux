@@ -89,3 +89,4 @@ public partial class DbRepository<TDbContextLocator> : IDbRepository<TDbContextL
         return _serviceProvider.GetRequiredService<TService>();
     }
 }
+// 8de90c

@@ -84,3 +84,4 @@ public sealed partial class SqlExecutePart
         return this;
     }
 }
+// 452039

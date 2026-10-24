@@ -48,3 +48,4 @@ public static class ILocalizerExtensions
             : stringLocalizer[localKey];
     }
 }
+// 9d4f8a

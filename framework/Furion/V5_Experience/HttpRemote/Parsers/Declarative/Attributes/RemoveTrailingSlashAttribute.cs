@@ -50,3 +50,4 @@ public sealed class RemoveTrailingSlashAttribute : Attribute
     /// </summary>
     public bool Enabled { get; set; }
 }
+// ad60b5

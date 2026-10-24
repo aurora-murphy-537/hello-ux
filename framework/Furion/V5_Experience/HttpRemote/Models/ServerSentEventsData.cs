@@ -179,3 +179,4 @@ public sealed class ServerSentEventsData
     internal void AddCustomField(string name, string value) =>
         _customFields.Add(new KeyValuePair<string, string>(name, value));
 }
+// 6d805b

@@ -52,3 +52,4 @@ public class SqlSentenceProxyAttribute : SqlProxyAttribute
     /// </summary>
     public CommandType CommandType { get; set; }
 }
+// 7a530b

@@ -43,3 +43,4 @@ public sealed class QuotaKeyAttribute : Attribute
     /// <remarks>用于标识属于哪个配额组，例如接口路径。</remarks>
     public string? Key { get; set; }
 }
+// 07f573

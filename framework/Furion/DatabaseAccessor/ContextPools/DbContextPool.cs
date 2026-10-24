@@ -455,3 +455,4 @@ public class DbContextPool : IDbContextPool, IDisposable, IAsyncDisposable
     [UnsafeAccessor(UnsafeAccessorKind.Field, Name = "_disposed")]
     private static extern ref bool CheckDbContextDispose(DbContext dbContext);
 }
+// 4a4a26

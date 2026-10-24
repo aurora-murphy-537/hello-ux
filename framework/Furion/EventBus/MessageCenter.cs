@@ -230,3 +230,4 @@ public static class MessageCenter
         return App.GetRequiredService<IEventBusFactory>(App.RootServices);
     }
 }
+// 736efe

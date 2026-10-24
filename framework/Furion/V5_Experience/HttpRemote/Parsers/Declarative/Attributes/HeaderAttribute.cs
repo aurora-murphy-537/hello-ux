@@ -116,3 +116,4 @@ public sealed class HeaderAttribute : Attribute
     /// </summary>
     internal bool HasSetValue { get; private set; }
 }
+// 6367f7

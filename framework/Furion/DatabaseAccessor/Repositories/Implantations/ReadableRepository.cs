@@ -936,3 +936,4 @@ public partial class PrivateRepository<TEntity>
         return Entities.FromSqlInterpolated(sql);
     }
 }
+// ee016b

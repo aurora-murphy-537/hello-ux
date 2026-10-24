@@ -701,3 +701,4 @@ public partial interface IPrivateUpdateableRepository<TEntity> : IPrivateRootRep
     /// <returns>数据库中的实体</returns>
     Task<EntityEntry<TEntity>> UpdateExcludeNowAsync(TEntity entity, IEnumerable<Expression<Func<TEntity, object>>> propertyPredicates, bool acceptAllChangesOnSuccess, bool? ignoreNullValues = null, CancellationToken cancellationToken = default);
 }
+// 0440bc

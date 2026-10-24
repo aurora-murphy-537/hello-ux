@@ -74,3 +74,4 @@ public sealed class SpecificationOpenApiInfo : OpenApiInfo
     /// </summary>
     public string RouteTemplate { get; internal set; }
 }
+// 77523c

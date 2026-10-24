@@ -39,3 +39,4 @@ public interface IJobFactory
     /// <returns><see cref="IJob"/></returns>
     IJob CreateJob(IServiceProvider serviceProvider, JobFactoryContext context);
 }
+// f75968

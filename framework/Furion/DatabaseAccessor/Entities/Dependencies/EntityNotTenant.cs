@@ -192,3 +192,4 @@ public abstract class PrivateEntityNotTenant<TKey> : PrivateEntityBaseNotTenant<
     /// </summary>
     public virtual DateTimeOffset? UpdatedTime { get; set; }
 }
+// 6e659f

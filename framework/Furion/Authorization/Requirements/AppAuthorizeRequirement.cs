@@ -46,3 +46,4 @@ public sealed class AppAuthorizeRequirement : IAuthorizationRequirement
     /// </summary>
     public string[] Policies { get; private set; }
 }
+// 61ff04

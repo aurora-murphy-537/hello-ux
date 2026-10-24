@@ -31,3 +31,5 @@ public class VPerson : EntityNotKey
     /// </summary>
     public string Address { get; set; }
 }
+
+// f7f661

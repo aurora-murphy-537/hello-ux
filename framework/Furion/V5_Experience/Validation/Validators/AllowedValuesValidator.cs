@@ -55,3 +55,4 @@ public class AllowedValuesValidator : ValidatorBase
     public override bool IsValid(object? value, IValidationContext? validationContext) =>
         Values.Any(allowed => allowed?.Equals(value) ?? value is null);
 }
+// 93ea6a

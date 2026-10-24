@@ -204,3 +204,4 @@ public abstract class PrivateEntityBase<TKey> : IPrivateEntity
     /// </summary>
     internal EntityState __State__ { get; set; }
 }
+// d0cd10

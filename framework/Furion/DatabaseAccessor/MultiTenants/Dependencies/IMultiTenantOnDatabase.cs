@@ -36,3 +36,4 @@ public interface IMultiTenantOnDatabase : IPrivateMultiTenant
     /// <returns></returns>
     string GetDatabaseConnectionString();
 }
+// f4e711

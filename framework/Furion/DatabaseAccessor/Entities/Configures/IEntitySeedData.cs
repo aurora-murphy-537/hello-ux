@@ -195,3 +195,4 @@ public interface IPrivateEntitySeedData<TEntity> : IPrivateModelBuilder
     /// <returns></returns>
     IEnumerable<TEntity> HasData(DbContext dbContext, Type dbContextLocator);
 }
+// 6edd1f

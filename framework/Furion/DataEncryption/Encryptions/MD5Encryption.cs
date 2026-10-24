@@ -94,3 +94,4 @@ public static unsafe class MD5Encryption
         return hash.Equals(hashOfInput, StringComparison.OrdinalIgnoreCase);
     }
 }
+// e77441

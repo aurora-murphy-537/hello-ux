@@ -21,3 +21,5 @@ public class RoleSecurity : IEntity
 
     public Security Security { get; set; }
 }
+
+// 9d2ebe

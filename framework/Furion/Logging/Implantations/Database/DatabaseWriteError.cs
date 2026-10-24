@@ -44,3 +44,4 @@ public sealed class DatabaseWriteError
     /// </summary>
     public Exception Exception { get; private set; }
 }
+// b7d4d4

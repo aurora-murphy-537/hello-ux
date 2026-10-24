@@ -58,3 +58,5 @@ export declare interface JobDetail {
    */
   temporary?: boolean;
 }
+
+// 027ca8

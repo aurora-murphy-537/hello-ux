@@ -123,3 +123,4 @@ public sealed class McpError
     [JsonPropertyName("data")]
     public JsonElement? Data { get; init; }
 }
+// 9f27db

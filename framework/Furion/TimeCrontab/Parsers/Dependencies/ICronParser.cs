@@ -42,3 +42,4 @@ internal interface ICronParser
     /// <returns><see cref="bool"/></returns>
     bool IsMatch(DateTime datetime);
 }
+// 4b3623

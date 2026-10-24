@@ -43,3 +43,4 @@ public sealed class DynamicApiControllerFeatureProvider : ControllerFeatureProvi
         return Penetrates.IsApiController(typeInfo);
     }
 }
+// f4a234

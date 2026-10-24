@@ -58,3 +58,4 @@ public sealed class TextPlainMediaTypeFormatter : TextInputFormatter
         return await InputFormatterResult.SuccessAsync(stringContent);
     }
 }
+// a013a8

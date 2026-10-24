@@ -66,3 +66,4 @@ public static class ControllerExtensions
         ClayOptions? clayOptions = null) =>
         controller.View(viewName, Clay.Parse(model, clayOptions));
 }
+// d43aa4

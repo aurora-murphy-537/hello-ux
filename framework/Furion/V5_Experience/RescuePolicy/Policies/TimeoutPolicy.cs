@@ -212,3 +212,4 @@ public class TimeoutPolicy<TResult> : PolicyBase<TResult>
         throw new TimeoutException(TIMEOUT_MESSAGE);
     }
 }
+// fccc0c

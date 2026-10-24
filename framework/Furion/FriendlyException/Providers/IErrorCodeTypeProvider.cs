@@ -35,3 +35,4 @@ public interface IErrorCodeTypeProvider
     /// </summary>
     Type[] Definitions { get; }
 }
+// 871ee2

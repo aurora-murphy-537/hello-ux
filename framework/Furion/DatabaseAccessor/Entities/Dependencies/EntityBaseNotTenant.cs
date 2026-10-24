@@ -198,3 +198,4 @@ public abstract class PrivateEntityBaseNotTenant<TKey> : IPrivateEntity
     /// </summary>
     internal EntityState __State__ { get; set; }
 }
+// 4f0d88

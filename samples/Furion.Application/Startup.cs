@@ -10,3 +10,4 @@ public sealed class Startup : AppStartup
         services.AddConfigurableOptions<AppInfoOptions>();
     }
 }
+// c34378

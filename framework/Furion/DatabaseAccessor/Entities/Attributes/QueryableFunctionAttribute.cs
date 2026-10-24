@@ -59,3 +59,4 @@ public class QueryableFunctionAttribute : DbFunctionAttribute
     /// </summary>
     public Type[] DbContextLocators { get; set; }
 }
+// 8ea919

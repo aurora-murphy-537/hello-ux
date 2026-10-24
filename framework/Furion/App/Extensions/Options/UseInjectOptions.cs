@@ -61,3 +61,4 @@ public sealed class UseInjectOptions
     /// </summary>
     internal static Action<SwaggerUIOptions> SwaggerUIConfigure { get; private set; }
 }
+// 541d82

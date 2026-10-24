@@ -134,3 +134,4 @@ public sealed class ObjectPropertySetter<T> where T : class
         GetPropertySetter(propertyName)(instance, propertyValue);
     }
 }
+// adbc69

@@ -52,3 +52,4 @@ public sealed class JobExecutingContext : JobExecutionContext
     /// </summary>
     public DateTime ExecutingTime { get; internal set; }
 }
+// 8253c7

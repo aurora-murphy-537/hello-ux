@@ -31,3 +31,4 @@ namespace System.Logging;
 internal sealed class FriendlyException
 {
 }
+// 023f1d

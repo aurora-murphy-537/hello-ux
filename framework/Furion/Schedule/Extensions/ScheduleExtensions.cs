@@ -265,3 +265,4 @@ public static class ScheduleExtensions
         return str.Length > maxLength ? str[..maxLength] + "..." : str;
     }
 }
+// 22271a

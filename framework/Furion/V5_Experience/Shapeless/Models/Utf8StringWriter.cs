@@ -35,3 +35,4 @@ internal sealed class Utf8StringWriter : StringWriter
     /// <inheritdoc />
     public override Encoding Encoding => Encoding.UTF8;
 }
+// 40bfdc

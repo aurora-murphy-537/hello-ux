@@ -58,3 +58,4 @@ public partial class PhoneNumberValidator : ValidatorBase
     [GeneratedRegex(@"^(?:(?:\+|00)86)?1(?:3\d|4[579]|5[0-35-9]|6[6-8]|7[0-8]|8\d|9[0-35-9])\d{8}$")]
     private static partial Regex Regex();
 }
+// b5e570

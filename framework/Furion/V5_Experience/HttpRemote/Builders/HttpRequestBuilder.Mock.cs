@@ -137,3 +137,4 @@ public sealed partial class HttpRequestBuilder
     /// </returns>
     public bool IsMocked() => MockedResponse is not null || MockedException is not null;
 }
+// d4e94e

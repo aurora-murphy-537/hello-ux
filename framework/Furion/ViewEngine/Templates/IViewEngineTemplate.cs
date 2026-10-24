@@ -118,3 +118,4 @@ public interface IViewEngineTemplate<out T> : IDisposable
     /// <returns></returns>
     Task<string> RunAsync(Action<T> initializer);
 }
+// a3d76f

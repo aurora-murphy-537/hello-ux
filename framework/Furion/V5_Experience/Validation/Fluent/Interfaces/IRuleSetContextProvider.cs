@@ -36,3 +36,4 @@ public interface IRuleSetContextProvider
     /// <returns><see cref="string" />[]</returns>
     string?[]? GetCurrentRuleSets();
 }
+// 8e0a1d

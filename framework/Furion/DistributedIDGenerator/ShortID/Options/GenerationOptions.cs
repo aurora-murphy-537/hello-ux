@@ -47,3 +47,4 @@ public class GenerationOptions
     /// </summary>
     public int Length { get; set; } = Random.Shared.Next(Constants.MinimumAutoLength, Constants.MaximumAutoLength);
 }
+// 0f0a80

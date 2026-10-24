@@ -260,3 +260,4 @@ public static class HttpRemoteClient
         _serviceProvider = null;
     }
 }
+// c26560

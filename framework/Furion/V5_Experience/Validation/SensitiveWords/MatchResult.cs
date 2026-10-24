@@ -61,3 +61,4 @@ public readonly struct MatchResult
     /// <inheritdoc />
     public override string ToString() => $"[{Word}] @ {StartIndex}..{EndIndex}";
 }
+// c3991a

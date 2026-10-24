@@ -43,3 +43,4 @@ internal sealed class BaseAddressDeclarativeExtractor : IHttpDeclarativeExtracto
         httpRequestBuilder.SetBaseAddress(baseAddressAttribute.BaseAddress);
     }
 }
+// 0125b4

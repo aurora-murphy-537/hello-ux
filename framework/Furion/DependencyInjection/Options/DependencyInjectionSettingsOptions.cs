@@ -48,3 +48,4 @@ public sealed class DependencyInjectionSettingsOptions : IConfigurableOptions<De
         options.Definitions ??= [];
     }
 }
+// 5bb212

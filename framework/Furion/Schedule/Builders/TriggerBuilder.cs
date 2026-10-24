@@ -673,3 +673,4 @@ public sealed partial class TriggerBuilder : Trigger
         return this.MapTo<Trigger>(triggerInstance);
     }
 }
+// 3bf93f

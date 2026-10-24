@@ -12,3 +12,4 @@ public interface ISql : ISqlDispatchProxy
     [SqlExecute("update person set age = 30 where id = {id}", RowEffects = true)]
     Task<int> UpdatePerson2(int id);
 }
+// be1ca9

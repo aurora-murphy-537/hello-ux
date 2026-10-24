@@ -14,3 +14,4 @@ public class RoleDto
     /// </summary>
     public string Remark { get; set; }
 }
+// fdd2b4

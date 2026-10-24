@@ -116,3 +116,4 @@ public partial class JobDetail
     /// </summary>
     internal Func<JobExecutingContext, CancellationToken, Task> DynamicExecuteAsync { get; set; }
 }
+// 507e32

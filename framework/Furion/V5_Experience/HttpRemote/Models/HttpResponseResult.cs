@@ -33,3 +33,4 @@ namespace Furion.HttpRemote;
 /// </param>
 /// <param name="RequestDuration">请求耗时（毫秒）</param>
 public sealed record HttpResponseResult(HttpResponseMessage? ResponseMessage, long RequestDuration);
+// 84735c

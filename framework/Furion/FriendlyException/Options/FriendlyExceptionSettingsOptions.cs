@@ -73,3 +73,4 @@ public sealed class FriendlyExceptionSettingsOptions : IConfigurableOptions<Frie
         options.LogError ??= true;
     }
 }
+// c25e50

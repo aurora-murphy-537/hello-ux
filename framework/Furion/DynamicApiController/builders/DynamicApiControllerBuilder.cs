@@ -44,3 +44,4 @@ public sealed class DynamicApiControllerBuilder
     /// <remarks>返回 <c>true</c> 将生成 Action，否则跳过。</remarks>
     public Action<ActionModel> ActionConfigure { get; set; }
 }
+// 6c3466

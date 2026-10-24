@@ -84,3 +84,4 @@ public interface IScheduleLogger
     /// <param name="ex">异常</param>
     void Log(LogLevel logLevel, string message, object[] args = default, Exception ex = default);
 }
+// 6d6fb8

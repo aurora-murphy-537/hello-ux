@@ -86,3 +86,4 @@ public interface ISensitiveDetectionProvider
     /// <returns></returns>
     Dictionary<string, List<int>> FoundSensitiveWords(string text);
 }
+// c77820

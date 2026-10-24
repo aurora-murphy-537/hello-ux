@@ -10,3 +10,5 @@ public class DefaultDbContext : AppDbContext<DefaultDbContext>
     {
     }
 }
+
+// 296d05

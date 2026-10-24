@@ -139,3 +139,4 @@ public sealed class ApiDescriptionSettingsAttribute : Attribute
     /// </summary>
     public bool IgnoreApi { get; set; }
 }
+// d56a0a

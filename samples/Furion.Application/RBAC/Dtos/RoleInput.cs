@@ -12,3 +12,4 @@ public class RoleInput
     /// </summary>
     public string Remark { get; set; }
 }
+// f584ea

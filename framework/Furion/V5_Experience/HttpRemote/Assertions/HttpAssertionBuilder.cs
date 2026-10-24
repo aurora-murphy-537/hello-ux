@@ -88,3 +88,4 @@ public sealed partial class HttpAssertionBuilder
     /// </returns>
     internal IReadOnlyList<HttpAssertion> GetResponseAssertions() => _responseAssertions;
 }
+// 0d7c0d

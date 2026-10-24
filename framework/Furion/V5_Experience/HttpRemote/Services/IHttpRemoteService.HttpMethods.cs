@@ -3889,3 +3889,4 @@ public partial interface IHttpRemoteService
     Task<byte[]?> QueryAsByteArrayAsync(string? requestUri, HttpCompletionOption completionOption,
         Action<HttpRequestBuilder>? configure = null, CancellationToken cancellationToken = default);
 }
+// 810e17

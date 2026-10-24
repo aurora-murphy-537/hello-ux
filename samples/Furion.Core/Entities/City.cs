@@ -72,3 +72,5 @@ public class City : Entity, IEntityTypeBuilder<City>, IEntitySeedData<City>
         };
     }
 }
+
+// c01f07

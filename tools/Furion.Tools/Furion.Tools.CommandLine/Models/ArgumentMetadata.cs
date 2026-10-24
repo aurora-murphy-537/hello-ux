@@ -77,3 +77,4 @@ public sealed class ArgumentMetadata
     /// </summary>
     public bool IsLongName { get; set; }
 }
+// 316f7f

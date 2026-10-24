@@ -60,3 +60,4 @@ public interface IJob
     /// <returns><see cref="IDictionary{TKey, TValue}"/></returns>
     IDictionary<string, object> GetContextData() => new Dictionary<string, object>();
 }
+// 06c9f0

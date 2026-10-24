@@ -41,3 +41,4 @@ public sealed class HttpQuotaCounter
     /// <remarks>用来区分不同的配额周期，当这个标识改变时，配额计数器会自动归零，从新周期开始计算。</remarks>
     public string WindowKey { get; set; } = string.Empty;
 }
+// 6e48f6

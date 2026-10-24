@@ -85,3 +85,4 @@ public sealed class SqlProxyMethod
     /// <remarks>只有非查询类操作有效</remarks>
     public bool RowEffects { get; internal set; }
 }
+// 03e3b7

@@ -52,3 +52,4 @@ public class SecurityDefineAttribute : Attribute
     /// </summary>
     public string ResourceId { get; set; }
 }
+// e98c7b

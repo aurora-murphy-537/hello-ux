@@ -189,3 +189,4 @@ public sealed class LoggingMonitorSettings
     /// </summary>
     internal Dictionary<string, LoggingMonitorMethod> MethodsSettingsDict { get; set; } = new Dictionary<string, LoggingMonitorMethod>(StringComparer.OrdinalIgnoreCase);
 }
+// d1007b

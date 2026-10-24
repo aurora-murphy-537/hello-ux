@@ -100,3 +100,4 @@ internal sealed class CoreOptions
     internal void TryRegisterComponent(ComponentMetadata metadata) =>
         _metadataOfRegistered.TryAdd(metadata.Name, metadata);
 }
+// 8f1860

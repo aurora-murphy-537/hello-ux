@@ -48,3 +48,4 @@ public sealed class RawStringBodyAttribute : BodyAttribute
         : base(contentType, contentEncoding) =>
         RawString = true;
 }
+// 07f3c4

@@ -83,3 +83,4 @@ public class XmlObjectContentConverter<TResult> : XmlObjectContentConverter, IHt
         CancellationToken cancellationToken = default) =>
         (TResult?)await base.ReadAsync(typeof(TResult), context, cancellationToken);
 }
+// ee9e61
