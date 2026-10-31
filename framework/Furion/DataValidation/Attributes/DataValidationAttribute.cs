@@ -108,3 +108,5 @@ public class DataValidationAttribute : ValidationAttribute
     public bool AllowNullValue { get; set; } = false;
 }
 // 508f5a
+
+// ecc726
